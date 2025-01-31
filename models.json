@@ -1,0 +1,20 @@
+[
+  {
+      "base_name": "HuggingFaceTB/SmolLM-135M",
+      "sizes": [
+          "135M"
+      ],
+      "full_names": [
+          "HuggingFaceTB/SmolLM-135M"
+      ]
+  },
+  {
+      "base_name": "apple/OpenELM",
+      "sizes": [
+          "270M"
+      ],
+      "full_names": [
+          "apple/OpenELM"
+      ]
+  }
+]
