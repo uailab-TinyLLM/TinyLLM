@@ -33,6 +33,7 @@ def set_seed(seed):
 
 
 def clear_cuda_cache():
+    torch.cuda.reset_max_memory_allocated()
     torch.cuda.empty_cache()
     print("Cuda Cache Cleaned")
     
@@ -104,6 +105,10 @@ def calculate_model_size(model):
 
 # evaluation
 def evaluate(model, tokenizer, model_name, dataset_name):
+    ##############################
+    # dataset 할때마다 GPU 메모리 초기화
+    clear_cuda_cache()
+    ##############################
     print("Loading dataset...")
     if dataset_name == "winogrande":
         dataset = load_dataset(dataset_name, "winogrande_xl", split='validation', trust_remote_code=True)
