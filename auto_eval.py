@@ -61,7 +61,7 @@ def load_model_and_tokenizer(model_name):
 
 def run_evaluation(model_name: str, fullname: str, datasets):
     
-    model, tokenizer = load_model_and_tokenizer(model_name)
+    model, tokenizer = load_model_and_tokenizer(fullname)
 
     for dataset_name in datasets:
       evaluate(model=model, tokenizer=tokenizer, model_name=fullname, dataset_name=dataset_name)
