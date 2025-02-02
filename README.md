@@ -9,7 +9,7 @@
 
 | Dataset Name | Explanation | 🔗 Link |
 | --- | --- | --- |
-| ARC | Science question dataset for QA.<br>- ARC-e : ARC-easy<br>- ARC-c: ARC-challenge | [ai2_arc](https://huggingface.co/datasets/allenai/ai2_arc) |
+| ARC | Science question dataset for QA.<br>- ARC-e : ARC-easy | [ai2_arc](https://huggingface.co/datasets/allenai/ai2_arc) |
 | OBQA | a QA dataset modeled after open-book exams, designed to test multi-step reasoning, commonsense knowledge, and deep text comprehension. | [openbookqa](https://huggingface.co/datasets/allenai/openbookqa) |
 | BoolQ | QA dataset for yes/no questions | [boolq](https://huggingface.co/datasets/google/boolq) |
 | PIQA | QA dataset for physical commonsense reasoning and a corresponding | [piqa](https://huggingface.co/datasets/ybisk/piqa) |
