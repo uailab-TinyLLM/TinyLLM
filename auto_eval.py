@@ -38,7 +38,7 @@ def clear_cuda_cache():
     
 
 # RAM 사용량 확인
-def check_ram_usage(threshold=93):
+def check_ram_usage(threshold=100):
     return psutil.virtual_memory().percent > threshold
 
 
@@ -78,7 +78,7 @@ def get_predictions(text, opt_num, tokenizer, model):
     start_event = torch.cuda.Event(enable_timing=True)
     end_event = torch.cuda.Event(enable_timing=True)
 
-    inputs = tokenizer(text, return_tensors='pt', padding=True, truncation=True).to(model.device)
+    inputs = tokenizer(text, padding=True, truncation=True, max_length=512, return_tensors="pt").to(model.device)
 
     with torch.no_grad():
         start_event.record()
@@ -109,6 +109,8 @@ def evaluate(model, tokenizer, model_name, dataset_name):
         dataset = load_dataset(dataset_name, "winogrande_xl", split='validation', trust_remote_code=True)
     elif dataset_name == "allenai/ai2_arc":
         dataset = load_dataset(dataset_name, "ARC-Easy", split='validation', trust_remote_code=True)
+    elif dataset_name == "boolq" or dataset_name == "social_i_qa":
+        dataset = load_dataset(dataset_name, split='validation[:1000]', trust_remote_code=True)
     else:
         dataset = load_dataset(dataset_name, split='validation', trust_remote_code=True)
 
@@ -117,8 +119,8 @@ def evaluate(model, tokenizer, model_name, dataset_name):
 
     ##############################
     run = wandb.init(
-        project="TinyLLM_OrinNano",  # Change this to your project name
-        # TinyLLM_OrinNano, tinyllm_hoon, etc...
+        project="TinyLLM_Final",  # Change this to your project name
+        # TinyLLM_Final, TinyLLM_OrinNano, tinyllm_hoon, etc...
         name=f"{model_name} in {dataset_name}",
         notes="",  # Add notes here
         tags=[gpu_name, model_name, dataset_name],  # tag에 GPU 이름, 모델 이름, 데이터셋 이름 기록
@@ -163,8 +165,7 @@ if __name__ == "__main__":
         model_list = json.load(f)
 
     # datasets = ["winogrande", "openbookqa", "allenai/ai2_arc", "social_i_qa", "boolq", "piqa"]
-    # datasets = ["openbookqa", "allenai/ai2_arc", "social_i_qa", "boolq", "piqa"]
-    datasets = ["openbookqa"]
+    datasets = ["openbookqa", "allenai/ai2_arc", "social_i_qa", "boolq", "piqa"]
     torch.multiprocessing.set_start_method('spawn')
 
 
@@ -184,7 +185,8 @@ if __name__ == "__main__":
 
 
             while child_process.is_alive():
-              if check_ram_usage(threshold=93):
+              ##### Check if memory usage exceeds threshold #####
+              if check_ram_usage(threshold=97):
                   print(f"[Main] Memory usage exceeded threshold. Terminating child process.")
                   child_process.terminate()
                   child_process.join()  # Wait for it to actually terminate
