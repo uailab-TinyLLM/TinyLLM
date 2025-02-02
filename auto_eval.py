@@ -164,8 +164,8 @@ if __name__ == "__main__":
     with open("models.json", "r") as f:
         model_list = json.load(f)
 
-    # datasets = ["winogrande", "openbookqa", "allenai/ai2_arc", "social_i_qa", "boolq", "piqa"]
-    datasets = ["openbookqa", "allenai/ai2_arc", "social_i_qa", "boolq", "piqa"]
+    datasets = ["winogrande", "openbookqa", "allenai/ai2_arc", "social_i_qa", "boolq", "piqa"]
+    # datasets = ["openbookqa", "allenai/ai2_arc", "social_i_qa", "boolq", "piqa"]
     torch.multiprocessing.set_start_method('spawn')
 
 
