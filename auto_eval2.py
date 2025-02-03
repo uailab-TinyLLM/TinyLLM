@@ -1,12 +1,8 @@
-import os
-import asyncio
 import json
+import gc
 import wandb
 import torch
 import psutil
-import threading
-import multiprocessing
-import time
 import numpy as np
 from tqdm import tqdm
 from datasets import load_dataset
@@ -33,10 +29,10 @@ def set_seed(seed):
 
 
 def clear_cuda_cache():
+    gc.collect()  # garbage collection 호출
     torch.cuda.reset_max_memory_allocated()
     torch.cuda.empty_cache()
     print("Cuda Cache Cleaned")
-    
 
 # RAM 사용량 확인
 def check_ram_usage(threshold=100):
@@ -70,6 +66,7 @@ def run_evaluation(model_name: str, fullname: str, datasets):
         break
 
     del model
+    del tokenizer
     clear_cuda_cache()
 
 
@@ -105,16 +102,12 @@ def calculate_model_size(model):
 
 # evaluation
 def evaluate(model, tokenizer, model_name, dataset_name):
-    ##############################
-    # dataset 할때마다 GPU 메모리 초기화
-    clear_cuda_cache()
-    ##############################
     print("Loading dataset...")
     if dataset_name == "winogrande":
         dataset = load_dataset(dataset_name, "winogrande_xl", split='validation[:1000]', trust_remote_code=True)
     elif dataset_name == "allenai/ai2_arc":
         dataset = load_dataset(dataset_name, "ARC-Easy", split='validation', trust_remote_code=True)
-    elif dataset_name == "boolq" or dataset_name == "social_i_qa" or dataset_name == "piqa":
+    elif dataset_name in ["boolq", "social_i_qa", "piqa"]:
         dataset = load_dataset(dataset_name, split='validation[:1000]', trust_remote_code=True)
     else:
         dataset = load_dataset(dataset_name, split='validation', trust_remote_code=True)
@@ -124,17 +117,17 @@ def evaluate(model, tokenizer, model_name, dataset_name):
 
     ##############################
     run = wandb.init(
-        project="TinyLLM_Final",  # Change this to your project name
-        # TinyLLM_Final, TinyLLM_OrinNano, tinyllm_hoon, etc...
+        project="TinyLLM_Final2",
         name=f"{model_name} in {dataset_name}",
-        notes="",  # Add notes here
-        tags=[gpu_name, model_name, dataset_name],  # tag에 GPU 이름, 모델 이름, 데이터셋 이름 기록
+        notes="",
+        tags=[gpu_name, model_name, dataset_name],
         mode="online"
-        )
+    )
     ##############################
 
     eval_table = initialize_eval_table(dataset_name)
     infer_times, correct = [], 0
+    max_swap_usage = 0  # ✅ 최대 스왑 메모리 사용량 추적
 
     print("Evaluating dataset...")
     for i, data in enumerate(tqdm(dataset)):
@@ -145,15 +138,28 @@ def evaluate(model, tokenizer, model_name, dataset_name):
         add_to_eval_table(eval_table, data, dataset_name, prediction, infer_time)
         infer_times.append(infer_time)
 
+        # ✅ 최대 스왑 메모리 사용량 업데이트
+        current_swap_usage = psutil.swap_memory().used / 1024 ** 2  # MB 단위 변환
+        max_swap_usage = max(max_swap_usage, current_swap_usage)
+
     accuracy = correct / len(dataset)
     avg_infer_time = sum(infer_times) / len(dataset)
     gpu_memory = torch.cuda.max_memory_allocated() / 1024 ** 2
     model_size = calculate_model_size(model)
 
-    wandb.log({"Evaluation": eval_table, "Accuracy": accuracy * 100, "Average Inference Time (ms)": avg_infer_time,
-               "GPU Memory Usage (MB)": gpu_memory, "Model Size (MB)": model_size, "Dataset Name": dataset_name})
+    # ✅ wandb에 최대 스왑 메모리 사용량 기록
+    wandb.log({
+        "Evaluation": eval_table,
+        "Accuracy": accuracy * 100,
+        "Average Inference Time (ms)": avg_infer_time,
+        "GPU Memory Usage (MB)": gpu_memory,
+        "Model Size (MB)": model_size,
+        "Max Swap Memory Usage (MB)": max_swap_usage,  # 🔥 최대 스왑 사용량 추가
+        "Dataset Name": dataset_name
+    })
 
     print(f"GPU Memory Usage: {gpu_memory} MB")
+    print(f"Max Swap Memory Usage: {max_swap_usage} MB")  # ✅ 콘솔 출력 추가
     print(f"Accuracy: {accuracy * 100:.2f}%")
     print(f"Average Inference Time: {avg_infer_time} ms")
     run.finish()
@@ -170,9 +176,7 @@ if __name__ == "__main__":
         model_list = json.load(f)
 
     datasets = ["winogrande", "openbookqa", "allenai/ai2_arc", "social_i_qa", "boolq", "piqa"]
-    # datasets = ["piqa"]
     torch.multiprocessing.set_start_method('spawn')
-
 
     for model_info in model_list:
         model_name = model_info["base_name"]
@@ -180,25 +184,7 @@ if __name__ == "__main__":
 
         for fullname in model_fullnames:
             print(f"Processing model: {fullname}")
-
-            # Create the child process
-            child_process = multiprocessing.Process(
-                target=run_evaluation,
-                args=(model_name, fullname, datasets),
-            )
-            child_process.start()
-
-            while child_process.is_alive():
-              ##### Check if memory usage exceeds threshold #####
-              if check_ram_usage(threshold=97):
-                  print(f"[Main] Memory usage exceeded threshold. Terminating child process.")
-                  child_process.terminate()
-                  child_process.join()  # Wait for it to actually terminate
-                  print(f"[Main] Killed process for model '{model_name}'.")
-                  clear_cuda_cache()
-                  break  # Skip to the next model
-
-              time.sleep(2)
+            run_evaluation(model_name, fullname, datasets)
 
     print("All models have been processed!")
 

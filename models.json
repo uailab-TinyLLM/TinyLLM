@@ -90,15 +90,6 @@
         ]
     },
     {
-        "base_name": "mllmTeam/PhoneLM",
-        "sizes": [
-            "0.5B"
-        ],
-        "full_names": [
-            "mllmTeam/PhoneLM-0.5B"
-        ]
-    },
-    {
         "base_name": "Qwen/Qwen1.5",
         "sizes": [
             "0.5B"
@@ -114,15 +105,6 @@
         ],
         "full_names": [
             "Qwen/Qwen2.5-0.5B"
-        ]
-    },
-    {
-        "base_name": "h2oai/h20-danube3",
-        "sizes": [
-            "500m"
-        ],
-        "full_names": [
-            "h2oai/h20-danube3-500m-base"
         ]
     },
     {
@@ -159,15 +141,6 @@
         ],
         "full_names": [
             "MBZUAI/LaMini-GPT-774M"
-        ]
-    },
-    {
-        "base_name": "google/flan-t5",
-        "sizes": [
-            "base"
-        ],
-        "full_names": [
-            "google/flan-t5-base"
         ]
     },
     {
