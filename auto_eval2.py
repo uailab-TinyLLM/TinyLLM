@@ -29,6 +29,7 @@ def set_seed(seed):
     torch.backends.cudnn.benchmark = False
 
 def clear_swap():
+    # sudo 권한 위해서 echo 1234 | sudo -S 명령어 사용
     cmd = "echo 1234 | sudo -S swapoff -a && sudo -S swapon -a"
     subprocess.run(cmd, shell=True)
     print("Swap memory cleared.")
@@ -39,6 +40,7 @@ def clear_cuda_cache():
     torch.cuda.empty_cache()
     clear_swap()
     print("Cuda Cache Cleaned")
+
 
 def load_model_and_tokenizer(model_name):
     try:
