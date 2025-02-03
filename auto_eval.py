@@ -114,7 +114,7 @@ def evaluate(model, tokenizer, model_name, dataset_name):
         dataset = load_dataset(dataset_name, "winogrande_xl", split='validation', trust_remote_code=True)
     elif dataset_name == "allenai/ai2_arc":
         dataset = load_dataset(dataset_name, "ARC-Easy", split='validation', trust_remote_code=True)
-    elif dataset_name == "boolq" or dataset_name == "social_i_qa":
+    elif dataset_name == "boolq" or dataset_name == "social_i_qa" or dataset_name == "piqa":
         dataset = load_dataset(dataset_name, split='validation[:1000]', trust_remote_code=True)
     else:
         dataset = load_dataset(dataset_name, split='validation', trust_remote_code=True)
