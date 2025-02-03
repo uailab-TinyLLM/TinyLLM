@@ -3,6 +3,7 @@ import gc
 import wandb
 import torch
 import psutil
+import subprocess
 import numpy as np
 from tqdm import tqdm
 from datasets import load_dataset
@@ -27,17 +28,17 @@ def set_seed(seed):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
+def clear_swap():
+    cmd = "echo 1234 | sudo -S swapoff -a && sudo -S swapon -a"
+    subprocess.run(cmd, shell=True)
+    print("Swap memory cleared.")
 
 def clear_cuda_cache():
     gc.collect()  # garbage collection 호출
     torch.cuda.reset_max_memory_allocated()
     torch.cuda.empty_cache()
+    clear_swap()
     print("Cuda Cache Cleaned")
-
-# RAM 사용량 확인
-def check_ram_usage(threshold=100):
-    return psutil.virtual_memory().percent > threshold
-
 
 def load_model_and_tokenizer(model_name):
     try:
