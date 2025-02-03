@@ -27,15 +27,6 @@
         ]
     },
     {
-        "base_name": "facebook/galactica",
-        "sizes": [
-            "125m"
-        ],
-        "full_names": [
-            "facebook/galactica-125m"
-        ]
-    },
-    {
         "base_name": "HuggingFaceTB/SmolLM",
         "sizes": [
             "135M"

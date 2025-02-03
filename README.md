@@ -10,7 +10,6 @@
 | Cerebras-GPT | Cerebras | 111M | 2023.03 | [Cerebras-GPT](https://huggingface.co/cerebras/Cerebras-GPT-111M) |
 | Danube3 | H2O | 500M | 2024.07 | [Danube3](https://huggingface.co/h2oai/h2o-danube3-500m-base) |
 | Flan-T5 | Google | Base | 2023.01 | [Flan-T5](https://huggingface.co/google/flan-t5-base) |
-| Galactica | Meta | 125M | 2022.11 | [Galactica](https://huggingface.co/facebook/galactica-125m) |
 | LaMini-GPT | MBZUAI | 774M | 2023.04 | [LaMini-GPT](https://huggingface.co/MBZUAI/LaMini-GPT-774M) |
 | LaMini-GPT | MBZUAI | 124M | 2023.04 | [LaMini-GPT](https://huggingface.co/MBZUAI/LaMini-GPT-124M) |
 | LiteLlama | ahxt | 460M | N/A | [LiteLlama](https://huggingface.co/ahxt/LiteLlama-460M-1T) |
