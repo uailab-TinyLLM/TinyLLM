@@ -65,8 +65,6 @@ def run_evaluation(model_name: str, fullname: str, datasets):
 
     for dataset_name in datasets:
       evaluate(model=model, tokenizer=tokenizer, model_name=fullname, dataset_name=dataset_name)
-      if check_ram_usage():
-        break
 
     del model
     del tokenizer
