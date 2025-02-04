@@ -1,140 +1,207 @@
-"Name","State","Notes","User","Tags","Created","Runtime","Sweep","Accuracy","Average Inference Time (ms)","Dataset Name","GPU Memory Usage (MB)","Max Swap Memory Usage (MB)","Model Size (MB)"
-"HuggingFaceTB/SmolLM-360M in winogrande","running","-","","HuggingFaceTB/SmolLM-360M, NVIDIA A100-SXM4-80GB, winogrande","2025-02-03T10:02:10.000Z","2","","","","","","",""
-"cerebras/Cerebras-GPT-256M in piqa","finished","-","","NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-256M, piqa","2025-02-03T10:00:49.000Z","14","","49.2","8.161446910381317","piqa","1234.14599609375","","976.474853515625"
-"cerebras/Cerebras-GPT-256M in boolq","finished","-","","NVIDIA A100-SXM4-80GB, boolq, cerebras/Cerebras-GPT-256M","2025-02-03T10:00:27.000Z","17","","38.1","10.619326430797576","boolq","1240.85986328125","","976.474853515625"
-"cerebras/Cerebras-GPT-256M in social_i_qa","finished","-","","NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-256M, social_i_qa","2025-02-03T10:00:05.000Z","13","","33.7","7.549233134269715","social_i_qa","1099.1728515625","","976.474853515625"
-"cerebras/Cerebras-GPT-256M in allenai/ai2_arc","finished","-","","NVIDIA A100-SXM4-80GB, allenai/ai2_arc, cerebras/Cerebras-GPT-256M","2025-02-03T09:59:50.000Z","10","","26.49122807017544","8.22727586762947","allenai/ai2_arc","1118.91796875","","976.474853515625"
-"cerebras/Cerebras-GPT-256M in openbookqa","finished","-","","NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-256M, openbookqa","2025-02-03T09:59:33.000Z","10","","25","10.398672863960266","openbookqa","1101.32861328125","","976.474853515625"
-"cerebras/Cerebras-GPT-256M in winogrande","finished","-","","NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-256M, winogrande","2025-02-03T09:59:03.000Z","18","","49.56590370955012","9.18204961767701","winogrande","1075.111328125","","976.474853515625"
-"EleutherAI/pythia-160m in piqa","finished","-","","EleutherAI/pythia-160m, NVIDIA A100-SXM4-80GB, piqa","2025-02-03T09:57:34.000Z","16","","48.6","10.558637038707731","piqa","854.90869140625","","619.212890625"
-"EleutherAI/pythia-160m in boolq","finished","-","","EleutherAI/pythia-160m, NVIDIA A100-SXM4-80GB, boolq","2025-02-03T09:57:13.000Z","15","","38","8.951955466270446","boolq","858.85791015625","","619.212890625"
-"EleutherAI/pythia-160m in social_i_qa","finished","-","","EleutherAI/pythia-160m, NVIDIA A100-SXM4-80GB, social_i_qa","2025-02-03T09:56:50.000Z","13","","33","7.518681079387664","social_i_qa","734.2705078125","","619.212890625"
-"EleutherAI/pythia-160m in allenai/ai2_arc","finished","-","","EleutherAI/pythia-160m, NVIDIA A100-SXM4-80GB, allenai/ai2_arc","2025-02-03T09:56:35.000Z","11","","26.31578947368421","8.693037770923816","allenai/ai2_arc","745.34423828125","","619.212890625"
-"EleutherAI/pythia-160m in openbookqa","finished","-","","EleutherAI/pythia-160m, NVIDIA A100-SXM4-80GB, openbookqa","2025-02-03T09:56:19.000Z","10","","25.2","8.999807023048401","openbookqa","736.34033203125","","619.212890625"
-"EleutherAI/pythia-160m in winogrande","finished","-","","EleutherAI/pythia-160m, NVIDIA A100-SXM4-80GB, winogrande","2025-02-03T09:55:49.000Z","19","","49.25019731649566","10.20395716363836","winogrande","706.09619140625","","619.212890625"
-"HuggingFaceTB/SmolLM-135M in social_i_qa","finished","-","","HuggingFaceTB/SmolLM-135M, NVIDIA A100-SXM4-80GB, social_i_qa","2025-02-03T09:54:30.000Z","32","","32.800000000000004","25.444917219161987","social_i_qa","559.6337890625","","513.134033203125"
-"HuggingFaceTB/SmolLM-135M in allenai/ai2_arc","finished","-","","HuggingFaceTB/SmolLM-135M, NVIDIA A100-SXM4-80GB, allenai/ai2_arc","2025-02-03T09:54:04.000Z","21","","24.210526315789473","27.540641724435908","allenai/ai2_arc","569.1982421875","","513.134033203125"
-"HuggingFaceTB/SmolLM-135M in openbookqa","finished","-","","HuggingFaceTB/SmolLM-135M, NVIDIA A100-SXM4-80GB, openbookqa","2025-02-03T09:53:39.000Z","18","","25.8","26.24269722747803","openbookqa","559.38525390625","","513.134033203125"
-"HuggingFaceTB/SmolLM-135M in winogrande","finished","-","","HuggingFaceTB/SmolLM-135M, NVIDIA A100-SXM4-80GB, winogrande","2025-02-03T09:52:50.000Z","38","","50.43409629044988","24.742292909991015","winogrande","547.01611328125","","513.134033203125"
-"facebook/opt-125m in piqa","finished","-","","NVIDIA A100-SXM4-80GB, facebook/opt-125m, piqa","2025-02-03T09:51:36.000Z","13","","49.4","7.824036844730378","piqa","626.57275390625","","477.75"
-"facebook/opt-125m in boolq","finished","-","","NVIDIA A100-SXM4-80GB, boolq, facebook/opt-125m","2025-02-03T09:51:18.000Z","13","","43.4","6.7920015392303466","boolq","628.783203125","","477.75"
-"facebook/opt-125m in social_i_qa","finished","-","","NVIDIA A100-SXM4-80GB, facebook/opt-125m, social_i_qa","2025-02-03T09:50:55.000Z","14","","33.7","7.898707963466644","social_i_qa","521.27783203125","","477.75"
-"facebook/opt-125m in allenai/ai2_arc","finished","-","","NVIDIA A100-SXM4-80GB, allenai/ai2_arc, facebook/opt-125m","2025-02-03T09:50:40.000Z","10","","26.49122807017544","8.328907017958791","allenai/ai2_arc","534.263671875","","477.75"
-"facebook/opt-125m in openbookqa","finished","-","","NVIDIA A100-SXM4-80GB, facebook/opt-125m, openbookqa","2025-02-03T09:50:23.000Z","10","","25.4","9.04010546207428","openbookqa","524.19287109375","","477.75"
-"facebook/opt-125m in winogrande","finished","-","","NVIDIA A100-SXM4-80GB, facebook/opt-125m, winogrande","2025-02-03T09:49:56.000Z","16","","49.4869771112865","8.814409379801038","winogrande","507.49609375","","477.75"
-"MBZUAI/LaMini-GPT-124M in piqa","finished","-","","MBZUAI/LaMini-GPT-124M, NVIDIA A100-SXM4-80GB, piqa","2025-02-03T09:49:14.000Z","14","","50.8","7.6863375597000125","piqa","594.27783203125","","474.703125"
-"MBZUAI/LaMini-GPT-124M in boolq","finished","-","","MBZUAI/LaMini-GPT-124M, NVIDIA A100-SXM4-80GB, boolq","2025-02-03T09:48:55.000Z","15","","62.4","7.953231869220733","boolq","596.38671875","","474.703125"
-"MBZUAI/LaMini-GPT-124M in social_i_qa","finished","-","","MBZUAI/LaMini-GPT-124M, NVIDIA A100-SXM4-80GB, social_i_qa","2025-02-03T09:48:32.000Z","14","","33.1","8.251798535823822","social_i_qa","521.1357421875","","474.703125"
-"MBZUAI/LaMini-GPT-124M in allenai/ai2_arc","finished","-","","MBZUAI/LaMini-GPT-124M, NVIDIA A100-SXM4-80GB, allenai/ai2_arc","2025-02-03T09:48:16.000Z","10","","24.912280701754387","8.729219130465859","allenai/ai2_arc","530.740234375","","474.703125"
-"MBZUAI/LaMini-GPT-124M in openbookqa","finished","-","","MBZUAI/LaMini-GPT-124M, NVIDIA A100-SXM4-80GB, openbookqa","2025-02-03T09:48:00.000Z","9","","24","8.270419971466065","openbookqa","523.2783203125","","474.703125"
-"MBZUAI/LaMini-GPT-124M in winogrande","finished","-","","MBZUAI/LaMini-GPT-124M, NVIDIA A100-SXM4-80GB, winogrande","2025-02-03T09:47:28.000Z","22","","50.43409629044988","8.841398645218847","winogrande","511.01416015625","","474.703125"
-"cerebras/Cerebras-GPT-111M in piqa","finished","-","","NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-111M, piqa","2025-02-03T09:46:31.000Z","12","","49.2","5.843598350048065","piqa","618.607421875","","423.6240234375"
-"cerebras/Cerebras-GPT-111M in boolq","finished","-","","NVIDIA A100-SXM4-80GB, boolq, cerebras/Cerebras-GPT-111M","2025-02-03T09:46:08.000Z","14","","38","7.812117520809173","boolq","621.6826171875","","423.6240234375"
-"cerebras/Cerebras-GPT-111M in social_i_qa","finished","-","","NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-111M, social_i_qa","2025-02-03T09:45:45.000Z","11","","33.7","5.617564652442932","social_i_qa","521.43310546875","","423.6240234375"
-"cerebras/Cerebras-GPT-111M in allenai/ai2_arc","finished","-","","NVIDIA A100-SXM4-80GB, allenai/ai2_arc, cerebras/Cerebras-GPT-111M","2025-02-03T09:45:28.000Z","9","","26.49122807017544","6.2077107805954785","allenai/ai2_arc","531.0380859375","","423.6240234375"
-"cerebras/Cerebras-GPT-111M in openbookqa","finished","-","","NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-111M, openbookqa","2025-02-03T09:45:10.000Z","9","","25","8.588251143455505","openbookqa","523.5751953125","","423.6240234375"
-"cerebras/Cerebras-GPT-111M in winogrande","finished","-","","NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-111M, winogrande","2025-02-03T09:44:40.000Z","17","","49.56590370955012","7.800755273477242","winogrande","497.99169921875","","423.6240234375"
-"google/flan-t5-base in piqa","failed","-","","Orin, google/flan-t5-base, piqa","2025-02-03T06:44:23.000Z","4","","","","","","",""
-"MBZUAI/LaMini-GPT-774M in piqa","crashed","-","","MBZUAI/LaMini-GPT-774M, Orin, piqa","2025-02-03T06:42:37.000Z","46","","","","","","",""
-"cerebras/Cerebras-GPT-590M in piqa","finished","-","","Orin, cerebras/Cerebras-GPT-590M, piqa","2025-02-03T06:34:52.000Z","302","","49.2","279.48952098846434","piqa","2607.568359375","","2251.857421875"
-"bigscience/bloomz-560m in piqa","finished","-","","Orin, bigscience/bloomz-560m, piqa","2025-02-03T06:25:42.000Z","402","","50.6","257.5186014099121","piqa","2777.77734375","","2133.234375"
-"bigscience/bloom-560m in piqa","crashed","-","","Orin, bigscience/bloom-560m, piqa","2025-02-03T06:23:13.000Z","50","","","","","","",""
-"h2oai/h20-danube3-500m-base in piqa","failed","-","","Orin, h2oai/h20-danube3-500m-base, piqa","2025-02-03T06:21:40.000Z","3","","","","","","",""
-"Qwen/Qwen2.5-0.5B in piqa","finished","-","","Orin, Qwen/Qwen2.5-0.5B, piqa","2025-02-03T06:15:00.000Z","305","","59.5","213.579380569458","piqa","2199.0546875","","1884.58544921875"
-"Qwen/Qwen1.5-0.5B in piqa","crashed","-","","Orin, Qwen/Qwen1.5-0.5B, piqa","2025-02-03T06:10:00.000Z","151","","","","","","",""
-"mllmTeam/PhoneLM-0.5B in piqa","failed","-","","Orin, mllmTeam/PhoneLM-0.5B, piqa","2025-02-03T06:08:32.000Z","6","","","","","","",""
-"ahxt/LiteLlama-460M-1T in piqa","finished","-","","Orin, ahxt/LiteLlama-460M-1T, piqa","2025-02-03T06:03:57.000Z","198","","49.3","181.29730604553225","piqa","1879.1630859375","","1761.19140625"
-"EleutherAI/pythia-410m in piqa","finished","-","","EleutherAI/pythia-410m, Orin, piqa","2025-02-03T05:58:57.000Z","168","","49.2","153.3653235321045","piqa","1940.06689453125","","1546.2265625"
-"facebook/opt-350m in piqa","finished","-","","Orin, facebook/opt-350m, piqa","2025-02-03T05:54:33.000Z","163","","49.9","148.2698412017822","piqa","1464.12548828125","","1263.4140625"
-"HuggingFaceTB/SmolLM-360M in piqa","finished","-","","HuggingFaceTB/SmolLM-360M, Orin, piqa","2025-02-03T05:50:09.000Z","191","","52.5","176.19044438171386","piqa","1528.63916015625","","1380.238037109375"
-"cerebras/Cerebras-GPT-256M in piqa","finished","-","","Orin, cerebras/Cerebras-GPT-256M, piqa","2025-02-03T05:46:23.000Z","131","","49.2","118.0900521736145","piqa","1234.14599609375","","976.474853515625"
-"EleutherAI/pythia-160m in piqa","finished","-","","EleutherAI/pythia-160m, Orin, piqa","2025-02-03T05:43:45.000Z","77","","48.6","63.16862409591675","piqa","854.90869140625","","619.212890625"
-"HuggingFaceTB/SmolLM-135M in piqa","finished","-","","HuggingFaceTB/SmolLM-135M, Orin, piqa","2025-02-03T05:40:13.000Z","152","","49.9","138.11654808044435","piqa","646.7724609375","","513.134033203125"
-"facebook/galactica-125m in piqa","failed","-","","Orin, facebook/galactica-125m, piqa","2025-02-03T05:39:26.000Z","3","","","","","","",""
-"facebook/opt-125m in piqa","finished","-","","Orin, facebook/opt-125m, piqa","2025-02-03T05:37:07.000Z","77","","49.4","63.60353413391113","piqa","626.57275390625","","477.75"
-"MBZUAI/LaMini-GPT-124M in piqa","finished","-","","MBZUAI/LaMini-GPT-124M, Orin, piqa","2025-02-03T05:34:43.000Z","83","","50.8","70.01665793991089","piqa","594.27783203125","","474.703125"
-"cerebras/Cerebras-GPT-111M in piqa","finished","-","","Orin, cerebras/Cerebras-GPT-111M, piqa","2025-02-03T05:31:33.000Z","113","","49.2","67.59444571876526","piqa","618.607421875","","423.6240234375"
-"TinyLlama/TinyLlama_v1.1 in winogrande","crashed","-","","Orin, TinyLlama/TinyLlama_v1.1, winogrande","2025-02-02T17:33:26.000Z","0","","","","","","",""
-"google/flan-t5-base in winogrande","failed","-","","Orin, google/flan-t5-base, winogrande","2025-02-02T17:30:55.000Z","3","","","","","","",""
-"MBZUAI/LaMini-GPT-774M in social_i_qa","crashed","-","","MBZUAI/LaMini-GPT-774M, Orin, social_i_qa","2025-02-02T17:28:57.000Z","61","","","","","","",""
-"MBZUAI/LaMini-GPT-774M in allenai/ai2_arc","finished","-","","MBZUAI/LaMini-GPT-774M, Orin, allenai/ai2_arc","2025-02-02T17:25:22.000Z","203","","32.631578947368425","331.2463760911373","allenai/ai2_arc","3104.3046875","","2952.6953125"
-"MBZUAI/LaMini-GPT-774M in openbookqa","finished","-","","MBZUAI/LaMini-GPT-774M, Orin, openbookqa","2025-02-02T17:22:36.000Z","156","","31.2","288.7707043762207","openbookqa","3096.7685546875","","2952.6953125"
-"MBZUAI/LaMini-GPT-774M in winogrande","finished","-","","MBZUAI/LaMini-GPT-774M, Orin, winogrande","2025-02-02T17:16:09.000Z","368","","51.0655090765588","241.84174239136803","winogrande","3084.38134765625","","2952.6953125"
-"cerebras/Cerebras-GPT-590M in boolq","finished","-","","Orin, boolq, cerebras/Cerebras-GPT-590M","2025-02-02T16:52:33.000Z","455","","37.9","407.8027996673584","boolq","2613.1572265625","","2251.857421875"
-"cerebras/Cerebras-GPT-590M in social_i_qa","finished","-","","Orin, cerebras/Cerebras-GPT-590M, social_i_qa","2025-02-02T16:47:50.000Z","268","","33.7","252.31671072387695","social_i_qa","2423.40771484375","","2251.857421875"
-"cerebras/Cerebras-GPT-590M in allenai/ai2_arc","finished","-","","Orin, allenai/ai2_arc, cerebras/Cerebras-GPT-590M","2025-02-02T16:45:03.000Z","157","","26.49122807017544","251.49562498393811","allenai/ai2_arc","2441.55078125","","2251.857421875"
-"cerebras/Cerebras-GPT-590M in openbookqa","finished","-","","Orin, cerebras/Cerebras-GPT-590M, openbookqa","2025-02-02T16:42:44.000Z","125","","25","227.7716315612793","openbookqa","2426.87890625","","2251.857421875"
-"cerebras/Cerebras-GPT-590M in winogrande","finished","-","","Orin, cerebras/Cerebras-GPT-590M, winogrande","2025-02-02T16:37:56.000Z","269","","49.56590370955012","195.59808604323968","winogrande","2393.74560546875","","2251.857421875"
-"bigscience/bloomz-560m in boolq","finished","-","","Orin, bigscience/bloomz-560m, boolq","2025-02-02T16:26:24.000Z","443","","62.5","357.8165179595947","boolq","2777.3671875","","2133.234375"
-"bigscience/bloomz-560m in social_i_qa","finished","-","","Orin, bigscience/bloomz-560m, social_i_qa","2025-02-02T16:21:44.000Z","265","","32.9","213.56794567108153","social_i_qa","2297.162109375","","2133.234375"
-"bigscience/bloomz-560m in allenai/ai2_arc","finished","-","","Orin, allenai/ai2_arc, bigscience/bloomz-560m","2025-02-02T16:18:38.000Z","164","","24.210526315789473","206.62849906787537","allenai/ai2_arc","2359.2646484375","","2133.234375"
-"bigscience/bloomz-560m in openbookqa","finished","-","","Orin, bigscience/bloomz-560m, openbookqa","2025-02-02T16:16:01.000Z","146","","21.8","178.6327811279297","openbookqa","2308.6982421875","","2133.234375"
-"bigscience/bloomz-560m in winogrande","finished","-","","Orin, bigscience/bloomz-560m, winogrande","2025-02-02T16:10:18.000Z","323","","50.355169692186266","148.32414443716817","winogrande","2230.798828125","","2133.234375"
-"bigscience/bloom-560m in boolq","finished","-","","Orin, bigscience/bloom-560m, boolq","2025-02-02T15:50:28.000Z","446","","38.3","357.45309278869627","boolq","2777.3671875","","2133.234375"
-"bigscience/bloom-560m in social_i_qa","finished","-","","Orin, bigscience/bloom-560m, social_i_qa","2025-02-02T15:45:54.000Z","261","","33.7","213.10697130584717","social_i_qa","2297.162109375","","2133.234375"
-"bigscience/bloom-560m in allenai/ai2_arc","finished","-","","Orin, allenai/ai2_arc, bigscience/bloom-560m","2025-02-02T15:42:58.000Z","166","","26.31578947368421","206.4184246933251","allenai/ai2_arc","2359.2646484375","","2133.234375"
-"bigscience/bloom-560m in openbookqa","finished","-","","Orin, bigscience/bloom-560m, openbookqa","2025-02-02T15:40:21.000Z","148","","25.8","178.740958404541","openbookqa","2308.6982421875","","2133.234375"
-"bigscience/bloom-560m in winogrande","finished","-","","Orin, bigscience/bloom-560m, winogrande","2025-02-02T15:34:41.000Z","323","","49.56590370955012","149.08275208025347","winogrande","2230.798828125","","2133.234375"
-"h2oai/h20-danube3-500m-base in winogrande","failed","-","","Orin, h2oai/h20-danube3-500m-base, winogrande","2025-02-02T15:31:15.000Z","3","","","","","","",""
-"Qwen/Qwen2.5-0.5B in boolq","finished","-","","Orin, Qwen/Qwen2.5-0.5B, boolq","2025-02-02T15:17:14.000Z","383","","64.60000000000001","330.0366031188965","boolq","2203.90625","","1884.58544921875"
-"Qwen/Qwen2.5-0.5B in social_i_qa","finished","-","","Orin, Qwen/Qwen2.5-0.5B, social_i_qa","2025-02-02T15:13:28.000Z","214","","52.3","197.7936805038452","social_i_qa","1967.38671875","","1884.58544921875"
-"Qwen/Qwen2.5-0.5B in allenai/ai2_arc","finished","-","","Orin, Qwen/Qwen2.5-0.5B, allenai/ai2_arc","2025-02-02T15:11:14.000Z","124","","62.80701754385965","197.7374458179139","allenai/ai2_arc","1998.31640625","","1884.58544921875"
-"Qwen/Qwen2.5-0.5B in openbookqa","finished","-","","Orin, Qwen/Qwen2.5-0.5B, openbookqa","2025-02-02T15:09:26.000Z","99","","44.8","173.80585205078123","openbookqa","1972.892578125","","1884.58544921875"
-"Qwen/Qwen2.5-0.5B in winogrande","finished","-","","Orin, Qwen/Qwen2.5-0.5B, winogrande","2025-02-02T15:05:51.000Z","200","","50.90765588003157","143.20088863598613","winogrande","1935.8515625","","1884.58544921875"
-"Qwen/Qwen1.5-0.5B in boolq","finished","-","","Orin, Qwen/Qwen1.5-0.5B, boolq","2025-02-02T14:51:59.000Z","360","","59.7","305.81486240386965","boolq","2245.35595703125","","1769.97265625"
-"Qwen/Qwen1.5-0.5B in social_i_qa","finished","-","","Orin, Qwen/Qwen1.5-0.5B, social_i_qa","2025-02-02T14:48:20.000Z","207","","42.3","174.68632892608642","social_i_qa","1944.66162109375","","1769.97265625"
-"Qwen/Qwen1.5-0.5B in allenai/ai2_arc","finished","-","","Orin, Qwen/Qwen1.5-0.5B, allenai/ai2_arc","2025-02-02T14:45:24.000Z","142","","54.736842105263165","175.61768453497635","allenai/ai2_arc","1983.9833984375","","1769.97265625"
-"Qwen/Qwen1.5-0.5B in openbookqa","finished","-","","Orin, Qwen/Qwen1.5-0.5B, openbookqa","2025-02-02T14:43:00.000Z","129","","42","155.57407711791993","openbookqa","1951.48388671875","","1769.97265625"
-"Qwen/Qwen1.5-0.5B in winogrande","finished","-","","Orin, Qwen/Qwen1.5-0.5B, winogrande","2025-02-02T14:37:23.000Z","322","","50.82872928176796","146.1785555134256","winogrande","1904.56982421875","","1769.97265625"
-"mllmTeam/PhoneLM-0.5B in winogrande","failed","-","","Orin, mllmTeam/PhoneLM-0.5B, winogrande","2025-02-02T14:34:32.000Z","3","","","","","","",""
-"ahxt/LiteLlama-460M-1T in boolq","finished","-","","Orin, ahxt/LiteLlama-460M-1T, boolq","2025-02-02T14:22:31.000Z","294","","38.1","278.4263421783447","boolq","1881.57470703125","","1761.19140625"
-"ahxt/LiteLlama-460M-1T in social_i_qa","finished","-","","Orin, ahxt/LiteLlama-460M-1T, social_i_qa","2025-02-02T14:19:12.000Z","187","","34","173.07866479492188","social_i_qa","1797.38134765625","","1761.19140625"
-"ahxt/LiteLlama-460M-1T in allenai/ai2_arc","finished","-","","Orin, ahxt/LiteLlama-460M-1T, allenai/ai2_arc","2025-02-02T14:17:12.000Z","110","","25.6140350877193","173.44741328724643","allenai/ai2_arc","1808.15966796875","","1761.19140625"
-"ahxt/LiteLlama-460M-1T in openbookqa","finished","-","","Orin, ahxt/LiteLlama-460M-1T, openbookqa","2025-02-02T14:15:35.000Z","87","","25.2","156.08919175720214","openbookqa","1799.7939453125","","1761.19140625"
-"ahxt/LiteLlama-460M-1T in winogrande","finished","-","","Orin, ahxt/LiteLlama-460M-1T, winogrande","2025-02-02T14:12:25.000Z","175","","49.56590370955012","124.43760697410724","winogrande","1785.98095703125","","1761.19140625"
-"EleutherAI/pythia-410m in boolq","finished","-","","EleutherAI/pythia-410m, Orin, boolq","2025-02-02T14:01:06.000Z","263","","37.8","247.23577223205567","boolq","1942.63330078125","","1546.2265625"
-"EleutherAI/pythia-410m in social_i_qa","finished","-","","EleutherAI/pythia-410m, Orin, social_i_qa","2025-02-02T13:57:53.000Z","165","","33.7","150.8899056930542","social_i_qa","1725.74609375","","1546.2265625"
-"EleutherAI/pythia-410m in allenai/ai2_arc","finished","-","","EleutherAI/pythia-410m, Orin, allenai/ai2_arc","2025-02-02T13:56:05.000Z","98","","26.31578947368421","153.6000855964527","allenai/ai2_arc","1751.44482421875","","1546.2265625"
-"EleutherAI/pythia-410m in openbookqa","finished","-","","EleutherAI/pythia-410m, Orin, openbookqa","2025-02-02T13:54:20.000Z","78","","25","135.24166093444825","openbookqa","1730.38330078125","","1546.2265625"
-"EleutherAI/pythia-410m in winogrande","finished","-","","EleutherAI/pythia-410m, Orin, winogrande","2025-02-02T13:51:39.000Z","147","","49.644830307813734","103.30744137421496","winogrande","1693.75830078125","","1546.2265625"
-"facebook/opt-350m in boolq","finished","-","","Orin, boolq, facebook/opt-350m","2025-02-02T13:39:53.000Z","248","","38.4","231.81928199768063","boolq","1466.734375","","1263.4140625"
-"facebook/opt-350m in social_i_qa","finished","-","","Orin, facebook/opt-350m, social_i_qa","2025-02-02T13:37:04.000Z","157","","32.6","142.3637615737915","social_i_qa","1320.72021484375","","1263.4140625"
-"facebook/opt-350m in allenai/ai2_arc","finished","-","","Orin, allenai/ai2_arc, facebook/opt-350m","2025-02-02T13:35:22.000Z","93","","26.31578947368421","144.79129083198413","allenai/ai2_arc","1339.400390625","","1263.4140625"
-"facebook/opt-350m in openbookqa","finished","-","","Orin, facebook/opt-350m, openbookqa","2025-02-02T13:33:56.000Z","77","","24.8","129.2695264892578","openbookqa","1324.91357421875","","1263.4140625"
-"facebook/opt-350m in winogrande","finished","-","","Orin, facebook/opt-350m, winogrande","2025-02-02T13:31:19.000Z","143","","49.56590370955012","100.03752819684516","winogrande","1300.8955078125","","1263.4140625"
-"HuggingFaceTB/SmolLM-360M in boolq","finished","-","","HuggingFaceTB/SmolLM-360M, Orin, boolq","2025-02-02T13:18:27.000Z","291","","39.7","274.14870875549315","boolq","1530.79345703125","","1380.238037109375"
-"HuggingFaceTB/SmolLM-360M in social_i_qa","finished","-","","HuggingFaceTB/SmolLM-360M, Orin, social_i_qa","2025-02-02T13:15:22.000Z","173","","34.300000000000004","158.65985760498046","social_i_qa","1428.2060546875","","1380.238037109375"
-"HuggingFaceTB/SmolLM-360M in allenai/ai2_arc","finished","-","","HuggingFaceTB/SmolLM-360M, Orin, allenai/ai2_arc","2025-02-02T13:13:29.000Z","103","","21.75438596491228","161.71543292664646","allenai/ai2_arc","1439.23095703125","","1380.238037109375"
-"HuggingFaceTB/SmolLM-360M in openbookqa","finished","-","","HuggingFaceTB/SmolLM-360M, Orin, openbookqa","2025-02-02T13:11:55.000Z","85","","23.6","151.58856842041016","openbookqa","1427.9208984375","","1380.238037109375"
-"HuggingFaceTB/SmolLM-360M in winogrande","finished","-","","HuggingFaceTB/SmolLM-360M, Orin, winogrande","2025-02-02T13:08:21.000Z","199","","49.56590370955012","143.46950399132348","winogrande","1413.66357421875","","1380.238037109375"
-"cerebras/Cerebras-GPT-256M in boolq","finished","-","","Orin, boolq, cerebras/Cerebras-GPT-256M","2025-02-02T12:59:16.000Z","214","","38.1","197.90761924743651","boolq","1240.85986328125","","976.474853515625"
-"cerebras/Cerebras-GPT-256M in social_i_qa","finished","-","","Orin, cerebras/Cerebras-GPT-256M, social_i_qa","2025-02-02T12:56:26.000Z","139","","33.7","125.4607793197632","social_i_qa","1099.1728515625","","976.474853515625"
-"cerebras/Cerebras-GPT-256M in allenai/ai2_arc","finished","-","","Orin, allenai/ai2_arc, cerebras/Cerebras-GPT-256M","2025-02-02T12:54:58.000Z","78","","26.49122807017544","118.45788732160602","allenai/ai2_arc","1118.91796875","","976.474853515625"
-"cerebras/Cerebras-GPT-256M in openbookqa","finished","-","","Orin, cerebras/Cerebras-GPT-256M, openbookqa","2025-02-02T12:53:46.000Z","63","","25","104.82716012573242","openbookqa","1101.32861328125","","976.474853515625"
-"cerebras/Cerebras-GPT-256M in winogrande","finished","-","","Orin, cerebras/Cerebras-GPT-256M, winogrande","2025-02-02T12:51:39.000Z","113","","49.56590370955012","76.8072379969572","winogrande","1075.111328125","","976.474853515625"
-"EleutherAI/pythia-160m in boolq","finished","-","","EleutherAI/pythia-160m, Orin, boolq","2025-02-02T12:44:36.000Z","103","","38","89.24530813980103","boolq","858.85791015625","","619.212890625"
-"EleutherAI/pythia-160m in social_i_qa","finished","-","","EleutherAI/pythia-160m, Orin, social_i_qa","2025-02-02T12:43:15.000Z","68","","33","55.574741107940675","social_i_qa","734.2705078125","","619.212890625"
-"EleutherAI/pythia-160m in allenai/ai2_arc","finished","-","","EleutherAI/pythia-160m, Orin, allenai/ai2_arc","2025-02-02T12:42:24.000Z","42","","26.31578947368421","57.341061247440805","allenai/ai2_arc","745.34423828125","","619.212890625"
-"EleutherAI/pythia-160m in openbookqa","finished","-","","EleutherAI/pythia-160m, Orin, openbookqa","2025-02-02T12:41:41.000Z","35","","25.2","53.22515603637695","openbookqa","736.34033203125","","619.212890625"
-"EleutherAI/pythia-160m in winogrande","finished","-","","EleutherAI/pythia-160m, Orin, winogrande","2025-02-02T12:40:12.000Z","76","","49.25019731649566","50.21002636542919","winogrande","706.09619140625","","619.212890625"
-"HuggingFaceTB/SmolLM-135M in boolq","finished","-","","HuggingFaceTB/SmolLM-135M, Orin, boolq","2025-02-02T12:31:40.000Z","159","","60.4","143.36212879943847","boolq","648.6416015625","","513.134033203125"
-"HuggingFaceTB/SmolLM-135M in social_i_qa","finished","-","","HuggingFaceTB/SmolLM-135M, Orin, social_i_qa","2025-02-02T12:28:57.000Z","141","","32.800000000000004","125.26644384002684","social_i_qa","559.6337890625","","513.134033203125"
-"HuggingFaceTB/SmolLM-135M in allenai/ai2_arc","finished","-","","HuggingFaceTB/SmolLM-135M, Orin, allenai/ai2_arc","2025-02-02T12:27:24.000Z","84","","24.210526315789473","125.59089771739224","allenai/ai2_arc","569.1982421875","","513.134033203125"
-"HuggingFaceTB/SmolLM-135M in openbookqa","finished","-","","HuggingFaceTB/SmolLM-135M, Orin, openbookqa","2025-02-02T12:26:02.000Z","73","","25.8","124.12428340148924","openbookqa","559.38525390625","","513.134033203125"
-"HuggingFaceTB/SmolLM-135M in winogrande","finished","-","","HuggingFaceTB/SmolLM-135M, Orin, winogrande","2025-02-02T12:22:52.000Z","177","","50.43409629044988","125.49617590900472","winogrande","547.01611328125","","513.134033203125"
-"facebook/galactica-125m in winogrande","failed","-","","Orin, facebook/galactica-125m, winogrande","2025-02-02T12:22:06.000Z","2","","","","","","",""
-"facebook/opt-125m in boolq","finished","-","","Orin, boolq, facebook/opt-125m","2025-02-02T12:16:37.000Z","101","","43.4","86.71915930938721","boolq","628.783203125","","477.75"
-"facebook/opt-125m in social_i_qa","finished","-","","Orin, facebook/opt-125m, social_i_qa","2025-02-02T12:15:18.000Z","68","","33.7","55.36770124435425","social_i_qa","521.27783203125","","477.75"
-"facebook/opt-125m in allenai/ai2_arc","finished","-","","Orin, allenai/ai2_arc, facebook/opt-125m","2025-02-02T12:14:28.000Z","41","","26.49122807017544","56.63517720406516","allenai/ai2_arc","534.263671875","","477.75"
-"facebook/opt-125m in openbookqa","finished","-","","Orin, facebook/opt-125m, openbookqa","2025-02-02T12:13:44.000Z","35","","25.4","51.837565895080566","openbookqa","524.19287109375","","477.75"
-"facebook/opt-125m in winogrande","finished","-","","Orin, facebook/opt-125m, winogrande","2025-02-02T12:12:18.000Z","73","","49.4869771112865","46.662277703409416","winogrande","507.49609375","","477.75"
-"MBZUAI/LaMini-GPT-124M in boolq","finished","-","","MBZUAI/LaMini-GPT-124M, Orin, boolq","2025-02-02T12:06:45.000Z","106","","62.4","91.16897498703004","boolq","596.38671875","","474.703125"
-"MBZUAI/LaMini-GPT-124M in social_i_qa","finished","-","","MBZUAI/LaMini-GPT-124M, Orin, social_i_qa","2025-02-02T12:05:28.000Z","65","","33.1","53.6331340713501","social_i_qa","521.1357421875","","474.703125"
-"MBZUAI/LaMini-GPT-124M in allenai/ai2_arc","finished","-","","MBZUAI/LaMini-GPT-124M, Orin, allenai/ai2_arc","2025-02-02T12:04:37.000Z","42","","24.912280701754387","55.51672846476237","allenai/ai2_arc","530.740234375","","474.703125"
-"MBZUAI/LaMini-GPT-124M in openbookqa","finished","-","","MBZUAI/LaMini-GPT-124M, Orin, openbookqa","2025-02-02T12:03:49.000Z","35","","24","50.36065258789063","openbookqa","523.2783203125","","474.703125"
-"MBZUAI/LaMini-GPT-124M in winogrande","finished","-","","MBZUAI/LaMini-GPT-124M, Orin, winogrande","2025-02-02T12:02:17.000Z","78","","50.43409629044988","51.47999014248506","winogrande","511.01416015625","","474.703125"
-"cerebras/Cerebras-GPT-111M in boolq","finished","-","","Orin, boolq, cerebras/Cerebras-GPT-111M","2025-02-02T11:57:35.000Z","88","","38","75.05335263061524","boolq","621.6826171875","","423.6240234375"
-"cerebras/Cerebras-GPT-111M in social_i_qa","finished","-","","Orin, cerebras/Cerebras-GPT-111M, social_i_qa","2025-02-02T11:56:20.000Z","58","","33.7","46.56031371688843","social_i_qa","521.43310546875","","423.6240234375"
-"cerebras/Cerebras-GPT-111M in allenai/ai2_arc","finished","-","","Orin, allenai/ai2_arc, cerebras/Cerebras-GPT-111M","2025-02-02T11:55:33.000Z","36","","26.49122807017544","47.84820678443239","allenai/ai2_arc","531.0380859375","","423.6240234375"
-"cerebras/Cerebras-GPT-111M in openbookqa","finished","-","","Orin, cerebras/Cerebras-GPT-111M, openbookqa","2025-02-02T11:54:52.000Z","33","","25","42.65191746520996","openbookqa","523.5751953125","","423.6240234375"
-"cerebras/Cerebras-GPT-111M in winogrande","finished","-","","Orin, cerebras/Cerebras-GPT-111M, winogrande","2025-02-02T11:53:21.000Z","77","","49.56590370955012","49.356640146582166","winogrande","497.99169921875","","423.6240234375"
+Name,State,Notes,User,Tags,Created,Runtime,Sweep,Accuracy,Average Inference Time (ms),Dataset Name,GPU Memory Usage (MB),Max Swap Memory Usage (MB),Model Size (MB)
+TinyLlama/TinyLlama_v1.1 in piqa,finished,-,,"NVIDIA A100-SXM4-80GB, TinyLlama/TinyLlama_v1.1, piqa",2025-02-03T12:15:31.000Z,32,,50.4,24.740129774093628,piqa,4292.984863,0,4196.351563
+TinyLlama/TinyLlama_v1.1 in boolq,finished,-,,"NVIDIA A100-SXM4-80GB, TinyLlama/TinyLlama_v1.1, boolq",2025-02-03T12:14:45.000Z,42,,39.4,34.499153963088986,boolq,4292.984863,0,4196.351563
+TinyLlama/TinyLlama_v1.1 in social_i_qa,finished,-,,"NVIDIA A100-SXM4-80GB, TinyLlama/TinyLlama_v1.1, social_i_qa",2025-02-03T12:14:08.000Z,29,,32.800000000000004,21.634314252853393,social_i_qa,4229.690918,0,4196.351563
+TinyLlama/TinyLlama_v1.1 in allenai/ai2_arc,finished,-,,"NVIDIA A100-SXM4-80GB, TinyLlama/TinyLlama_v1.1, allenai/ai2_arc",2025-02-03T12:13:44.000Z,20,,26.49122807017544,24.61992784,allenai/ai2_arc,4238.383301,0,4196.351563
+TinyLlama/TinyLlama_v1.1 in openbookqa,finished,-,,"NVIDIA A100-SXM4-80GB, TinyLlama/TinyLlama_v1.1, openbookqa",2025-02-03T12:13:21.000Z,17,,25,22.993109008789062,openbookqa,4230.407715,0,4196.351563
+TinyLlama/TinyLlama_v1.1 in winogrande,finished,-,,"NVIDIA A100-SXM4-80GB, TinyLlama/TinyLlama_v1.1, winogrande",2025-02-03T12:12:47.000Z,26,,48.9,19.26325043296814,winogrande,4219.171387,0,4196.351563
+MBZUAI/LaMini-GPT-774M in piqa,finished,-,,"MBZUAI/LaMini-GPT-774M, NVIDIA A100-SXM4-80GB, piqa",2025-02-03T12:09:55.000Z,30,,55.400000000000006,22.129478677749635,piqa,3120.521973,0,2952.695313
+MBZUAI/LaMini-GPT-774M in boolq,finished,-,,"MBZUAI/LaMini-GPT-774M, NVIDIA A100-SXM4-80GB, boolq",2025-02-03T12:09:16.000Z,35,,58.8,27.129153497695924,boolq,3122.630859,0,2952.695313
+MBZUAI/LaMini-GPT-774M in social_i_qa,finished,-,,"MBZUAI/LaMini-GPT-774M, NVIDIA A100-SXM4-80GB, social_i_qa",2025-02-03T12:08:32.000Z,29,,42.2,21.741679655075075,social_i_qa,3046.629883,0,2952.695313
+MBZUAI/LaMini-GPT-774M in allenai/ai2_arc,finished,-,,"MBZUAI/LaMini-GPT-774M, NVIDIA A100-SXM4-80GB, allenai/ai2_arc",2025-02-03T12:08:07.000Z,20,,32.631578947368425,25.194224739074706,allenai/ai2_arc,3056.330078,0,2952.695313
+MBZUAI/LaMini-GPT-774M in openbookqa,finished,-,,"MBZUAI/LaMini-GPT-774M, NVIDIA A100-SXM4-80GB, openbookqa",2025-02-03T12:07:44.000Z,17,,31.2,22.83894373703003,openbookqa,3048.793945,0,2952.695313
+MBZUAI/LaMini-GPT-774M in winogrande,finished,-,,"MBZUAI/LaMini-GPT-774M, NVIDIA A100-SXM4-80GB, winogrande",2025-02-03T12:07:05.000Z,30,,51.8,22.20259941101074,winogrande,3035.816895,0,2952.695313
+cerebras/Cerebras-GPT-590M in piqa,finished,-,,"NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-590M, piqa",2025-02-03T12:04:24.000Z,21,,49.2,14.28443440580368,piqa,2601.503906,0,2251.857422
+cerebras/Cerebras-GPT-590M in boolq,finished,-,,"NVIDIA A100-SXM4-80GB, boolq, cerebras/Cerebras-GPT-590M",2025-02-03T12:03:52.000Z,27,,37.9,20.20814750766754,boolq,2607.157227,0,2251.857422
+cerebras/Cerebras-GPT-590M in social_i_qa,finished,-,,"NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-590M, social_i_qa",2025-02-03T12:03:25.000Z,20,,33.7,13.77666763305664,social_i_qa,2412.907715,0,2251.857422
+cerebras/Cerebras-GPT-590M in allenai/ai2_arc,finished,-,,"NVIDIA A100-SXM4-80GB, allenai/ai2_arc, cerebras/Cerebras-GPT-590M",2025-02-03T12:03:07.000Z,13,,26.49122807017544,13.43994255065918,allenai/ai2_arc,2435.550781,0,2251.857422
+cerebras/Cerebras-GPT-590M in openbookqa,finished,-,,"NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-590M, openbookqa",2025-02-03T12:02:49.000Z,12,,25,12.658225107192994,openbookqa,2417.992188,0,2251.857422
+cerebras/Cerebras-GPT-590M in winogrande,finished,-,,"NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-590M, winogrande",2025-02-03T12:02:24.000Z,17,,49.3,9.828606984138489,winogrande,2384.799316,0,2251.857422
+bigscience/bloomz-560m in piqa,finished,-,,"NVIDIA A100-SXM4-80GB, bigscience/bloomz-560m, piqa",2025-02-03T12:00:15.000Z,25,,50.6,18.966152173042296,piqa,2777.367188,0,2133.234375
+bigscience/bloomz-560m in boolq,finished,-,,"NVIDIA A100-SXM4-80GB, bigscience/bloomz-560m, boolq",2025-02-03T11:59:42.000Z,28,,62.5,21.055221784591676,boolq,2777.367188,0,2133.234375
+bigscience/bloomz-560m in social_i_qa,finished,-,,"NVIDIA A100-SXM4-80GB, bigscience/bloomz-560m, social_i_qa",2025-02-03T11:59:09.000Z,26,,32.9,19.70507672405243,social_i_qa,2301.822266,0,2133.234375
+bigscience/bloomz-560m in allenai/ai2_arc,finished,-,,"NVIDIA A100-SXM4-80GB, allenai/ai2_arc, bigscience/bloomz-560m",2025-02-03T11:58:46.000Z,18,,24.210526315789473,21.222520319620767,allenai/ai2_arc,2359.264648,0,2133.234375
+bigscience/bloomz-560m in openbookqa,finished,-,,"NVIDIA A100-SXM4-80GB, bigscience/bloomz-560m, openbookqa",2025-02-03T11:58:25.000Z,15,,21.8,19.770992664337157,openbookqa,2317.698242,0,2133.234375
+bigscience/bloomz-560m in winogrande,finished,-,,"NVIDIA A100-SXM4-80GB, bigscience/bloomz-560m, winogrande",2025-02-03T11:57:54.000Z,24,,50.7,17.329928226470948,winogrande,2229.607422,0,2133.234375
+bigscience/bloom-560m in piqa,finished,-,,"NVIDIA A100-SXM4-80GB, bigscience/bloom-560m, piqa",2025-02-03T11:56:52.000Z,26,,49.5,19.553943504333496,piqa,2777.367188,0,2133.234375
+bigscience/bloom-560m in boolq,finished,-,,"NVIDIA A100-SXM4-80GB, bigscience/bloom-560m, boolq",2025-02-03T11:56:19.000Z,28,,38.3,21.562538004875183,boolq,2777.367188,0,2133.234375
+bigscience/bloom-560m in social_i_qa,finished,-,,"NVIDIA A100-SXM4-80GB, bigscience/bloom-560m, social_i_qa",2025-02-03T11:55:47.000Z,25,,33.7,19.167457242012023,social_i_qa,2301.822266,0,2133.234375
+bigscience/bloom-560m in allenai/ai2_arc,finished,-,,"NVIDIA A100-SXM4-80GB, allenai/ai2_arc, bigscience/bloom-560m",2025-02-03T11:55:25.000Z,17,,26.31578947368421,20.034879843393963,allenai/ai2_arc,2359.264648,0,2133.234375
+bigscience/bloom-560m in openbookqa,finished,-,,"NVIDIA A100-SXM4-80GB, bigscience/bloom-560m, openbookqa",2025-02-03T11:55:04.000Z,15,,25.8,19.455399866104127,openbookqa,2317.698242,0,2133.234375
+bigscience/bloom-560m in winogrande,finished,-,,"NVIDIA A100-SXM4-80GB, bigscience/bloom-560m, winogrande",2025-02-03T11:54:34.000Z,21,,49.3,15.205183480262756,winogrande,2229.556641,0,2133.234375
+Qwen/Qwen2.5-0.5B in piqa,finished,-,,"NVIDIA A100-SXM4-80GB, Qwen/Qwen2.5-0.5B, piqa",2025-02-03T11:52:59.000Z,30,,59.5,23.620272106170653,piqa,2211.804688,0,1884.585449
+Qwen/Qwen2.5-0.5B in boolq,finished,-,,"NVIDIA A100-SXM4-80GB, Qwen/Qwen2.5-0.5B, boolq",2025-02-03T11:52:23.000Z,31,,64.60000000000001,23.56722278213501,boolq,2216.65625,0,1884.585449
+Qwen/Qwen2.5-0.5B in social_i_qa,finished,-,,"NVIDIA A100-SXM4-80GB, Qwen/Qwen2.5-0.5B, social_i_qa",2025-02-03T11:51:48.000Z,28,,52.3,21.64905576324463,social_i_qa,1980.136719,0,1884.585449
+Qwen/Qwen2.5-0.5B in allenai/ai2_arc,finished,-,,"NVIDIA A100-SXM4-80GB, Qwen/Qwen2.5-0.5B, allenai/ai2_arc",2025-02-03T11:51:23.000Z,20,,62.80701754385965,23.638089591578435,allenai/ai2_arc,2011.066406,0,1884.585449
+Qwen/Qwen2.5-0.5B in openbookqa,finished,-,,"NVIDIA A100-SXM4-80GB, Qwen/Qwen2.5-0.5B, openbookqa",2025-02-03T11:51:01.000Z,17,,44.8,22.071912494659426,openbookqa,1985.642578,0,1884.585449
+Qwen/Qwen2.5-0.5B in winogrande,finished,-,,"NVIDIA A100-SXM4-80GB, Qwen/Qwen2.5-0.5B, winogrande",2025-02-03T11:50:25.000Z,28,,51.2,22.016044076919556,winogrande,1948.601563,0,1884.585449
+Qwen/Qwen1.5-0.5B in piqa,finished,-,,"NVIDIA A100-SXM4-80GB, Qwen/Qwen1.5-0.5B, piqa",2025-02-03T11:49:12.000Z,28,,53.2,21.33571377754211,piqa,2215.437988,0,1769.972656
+Qwen/Qwen1.5-0.5B in boolq,finished,-,,"NVIDIA A100-SXM4-80GB, Qwen/Qwen1.5-0.5B, boolq",2025-02-03T11:48:37.000Z,31,,59.7,23.74132431983948,boolq,2221.355957,0,1769.972656
+Qwen/Qwen1.5-0.5B in social_i_qa,finished,-,,"NVIDIA A100-SXM4-80GB, Qwen/Qwen1.5-0.5B, social_i_qa",2025-02-03T11:48:02.000Z,28,,42.3,20.746675188064575,social_i_qa,1920.661621,0,1769.972656
+Qwen/Qwen1.5-0.5B in allenai/ai2_arc,finished,-,,"NVIDIA A100-SXM4-80GB, Qwen/Qwen1.5-0.5B, allenai/ai2_arc",2025-02-03T11:47:39.000Z,19,,54.736842105263165,22.511921434235155,allenai/ai2_arc,1959.983398,0,1769.972656
+Qwen/Qwen1.5-0.5B in openbookqa,finished,-,,"NVIDIA A100-SXM4-80GB, Qwen/Qwen1.5-0.5B, openbookqa",2025-02-03T11:47:16.000Z,17,,42,21.410705474853515,openbookqa,1927.483887,0,1769.972656
+Qwen/Qwen1.5-0.5B in winogrande,finished,-,,"NVIDIA A100-SXM4-80GB, Qwen/Qwen1.5-0.5B, winogrande",2025-02-03T11:46:44.000Z,25,,52.1,18.882486232757568,winogrande,1880.569824,0,1769.972656
+ahxt/LiteLlama-460M-1T in piqa,finished,-,,"NVIDIA A100-SXM4-80GB, ahxt/LiteLlama-460M-1T, piqa",2025-02-03T11:45:30.000Z,26,,49.3,19.931595764160157,piqa,1879.163086,0,1761.191406
+ahxt/LiteLlama-460M-1T in boolq,finished,-,,"NVIDIA A100-SXM4-80GB, ahxt/LiteLlama-460M-1T, boolq",2025-02-03T11:44:55.000Z,30,,38.1,22.30249779129028,boolq,1881.574707,0,1761.191406
+ahxt/LiteLlama-460M-1T in social_i_qa,finished,-,,"NVIDIA A100-SXM4-80GB, ahxt/LiteLlama-460M-1T, social_i_qa",2025-02-03T11:44:21.000Z,27,,34,20.10083021736145,social_i_qa,1797.381348,0,1761.191406
+ahxt/LiteLlama-460M-1T in allenai/ai2_arc,finished,-,,"NVIDIA A100-SXM4-80GB, ahxt/LiteLlama-460M-1T, allenai/ai2_arc",2025-02-03T11:43:59.000Z,18,,25.61403509,21.816314623648665,allenai/ai2_arc,1808.125,0,1761.191406
+ahxt/LiteLlama-460M-1T in openbookqa,finished,-,,"NVIDIA A100-SXM4-80GB, ahxt/LiteLlama-460M-1T, openbookqa",2025-02-03T11:43:37.000Z,15,,25.2,19.619966968536374,openbookqa,1799.793945,0,1761.191406
+ahxt/LiteLlama-460M-1T in winogrande,finished,-,,"NVIDIA A100-SXM4-80GB, ahxt/LiteLlama-460M-1T, winogrande",2025-02-03T11:43:00.000Z,29,,49.3,21.59989549255371,winogrande,1785.323242,0,1761.191406
+EleutherAI/pythia-410m in piqa,finished,-,,"EleutherAI/pythia-410m, NVIDIA A100-SXM4-80GB, piqa",2025-02-03T11:41:44.000Z,24,,49.2,17.540189134597778,piqa,1939.598145,0,1546.226563
+EleutherAI/pythia-410m in boolq,finished,-,,"EleutherAI/pythia-410m, NVIDIA A100-SXM4-80GB, boolq",2025-02-03T11:41:14.000Z,25,,37.8,18.03238912010193,boolq,1942.633301,0,1546.226563
+EleutherAI/pythia-410m in social_i_qa,finished,-,,"EleutherAI/pythia-410m, NVIDIA A100-SXM4-80GB, social_i_qa",2025-02-03T11:40:46.000Z,21,,33.7,15.314717684745789,social_i_qa,1727.605469,0,1546.226563
+EleutherAI/pythia-410m in allenai/ai2_arc,finished,-,,"EleutherAI/pythia-410m, NVIDIA A100-SXM4-80GB, allenai/ai2_arc",2025-02-03T11:40:25.000Z,16,,26.31578947368421,17.73954964855261,allenai/ai2_arc,1751.444824,0,1546.226563
+EleutherAI/pythia-410m in openbookqa,finished,-,,"EleutherAI/pythia-410m, NVIDIA A100-SXM4-80GB, openbookqa",2025-02-03T11:40:05.000Z,13,,25,16.156374979019166,openbookqa,1730.555176,0,1546.226563
+EleutherAI/pythia-410m in winogrande,finished,-,,"EleutherAI/pythia-410m, NVIDIA A100-SXM4-80GB, winogrande",2025-02-03T11:39:34.000Z,22,,49.4,16.47767657661438,winogrande,1692.616699,0,1546.226563
+facebook/opt-350m in piqa,finished,-,,"NVIDIA A100-SXM4-80GB, facebook/opt-350m, piqa",2025-02-03T11:38:28.000Z,19,,49.9,12.333946859359742,piqa,1462.922363,0,1263.414063
+facebook/opt-350m in boolq,finished,-,,"NVIDIA A100-SXM4-80GB, boolq, facebook/opt-350m",2025-02-03T11:38:00.000Z,23,,38.4,16.04436989402771,boolq,1466.734375,0,1263.414063
+facebook/opt-350m in social_i_qa,finished,-,,"NVIDIA A100-SXM4-80GB, facebook/opt-350m, social_i_qa",2025-02-03T11:37:34.000Z,19,,32.6,12.582839318275452,social_i_qa,1320.720215,0,1263.414063
+facebook/opt-350m in allenai/ai2_arc,finished,-,,"NVIDIA A100-SXM4-80GB, allenai/ai2_arc, facebook/opt-350m",2025-02-03T11:37:16.000Z,13,,26.31578947368421,12.51735263456378,allenai/ai2_arc,1339.400391,0,1263.414063
+facebook/opt-350m in openbookqa,finished,-,,"NVIDIA A100-SXM4-80GB, facebook/opt-350m, openbookqa",2025-02-03T11:36:58.000Z,12,,24.8,13.722093561172484,openbookqa,1324.913574,0,1263.414063
+facebook/opt-350m in winogrande,finished,-,,"NVIDIA A100-SXM4-80GB, facebook/opt-350m, winogrande",2025-02-03T11:36:33.000Z,17,,49.3,11.821705234527588,winogrande,1393.05127,0,1263.414063
+HuggingFaceTB/SmolLM-360M in piqa,finished,-,,"HuggingFaceTB/SmolLM-360M, NVIDIA A100-SXM4-80GB, piqa",2025-02-03T11:35:43.000Z,35,,52.5,28.653676597595215,piqa,1528.779785,0,1380.238037109375
+HuggingFaceTB/SmolLM-360M in boolq,finished,-,,"HuggingFaceTB/SmolLM-360M, NVIDIA A100-SXM4-80GB, boolq",2025-02-03T11:35:03.000Z,35,,39.7,27.793884147644043,boolq,1530.934082,0,1380.238037109375
+HuggingFaceTB/SmolLM-360M in social_i_qa,finished,-,,"HuggingFaceTB/SmolLM-360M, NVIDIA A100-SXM4-80GB, social_i_qa",2025-02-03T11:34:22.000Z,34,,34.300000000000004,27.012431871414183,social_i_qa,1428.34668,0,1380.238037109375
+HuggingFaceTB/SmolLM-360M in allenai/ai2_arc,finished,-,,"HuggingFaceTB/SmolLM-360M, NVIDIA A100-SXM4-80GB, allenai/ai2_arc",2025-02-03T11:33:56.000Z,22,,21.75438596491228,27.51742028353507,allenai/ai2_arc,1439.371582,0,1380.238037109375
+HuggingFaceTB/SmolLM-360M in openbookqa,finished,-,,"HuggingFaceTB/SmolLM-360M, NVIDIA A100-SXM4-80GB, openbookqa",2025-02-03T11:33:29.000Z,21,,23.6,29.437986667633055,openbookqa,1428.061523,0,1380.238037109375
+HuggingFaceTB/SmolLM-360M in winogrande,finished,-,,"HuggingFaceTB/SmolLM-360M, NVIDIA A100-SXM4-80GB, winogrande",2025-02-03T11:32:48.000Z,33,,49.3,26.73152310371399,winogrande,1413.519043,0,1380.238037109375
+cerebras/Cerebras-GPT-256M in piqa,finished,-,,"NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-256M, piqa",2025-02-03T11:32:20.000Z,16,,49.2,9.396246466636658,piqa,1228.739746,0,976.4748535
+cerebras/Cerebras-GPT-256M in boolq,finished,-,,"NVIDIA A100-SXM4-80GB, boolq, cerebras/Cerebras-GPT-256M",2025-02-03T11:31:56.000Z,19,,38.1,11.93373999643326,boolq,1234.578613,0,976.4748535
+cerebras/Cerebras-GPT-256M in social_i_qa,finished,-,,"NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-256M, social_i_qa",2025-02-03T11:31:36.000Z,13,,33.7,7.031916550636291,social_i_qa,1093.766602,0,976.4748535
+cerebras/Cerebras-GPT-256M in allenai/ai2_arc,finished,-,,"NVIDIA A100-SXM4-80GB, allenai/ai2_arc, cerebras/Cerebras-GPT-256M",2025-02-03T11:31:21.000Z,11,,26.49122807017544,8.930925576728686,allenai/ai2_arc,1109.655273,0,976.4748535
+cerebras/Cerebras-GPT-256M in openbookqa,finished,-,,"NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-256M, openbookqa",2025-02-03T11:31:06.000Z,10,,25,8.067033084,openbookqa,1095.922363,0,976.4748535
+cerebras/Cerebras-GPT-256M in winogrande,finished,-,,"NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-256M, winogrande",2025-02-03T11:30:46.000Z,13,,49.3,7.061159935474396,winogrande,1068.602539,0,976.4748535
+EleutherAI/pythia-160m in piqa,finished,-,,"EleutherAI/pythia-160m, NVIDIA A100-SXM4-80GB, piqa",2025-02-03T11:30:20.000Z,15,,48.6,8.440852480411529,piqa,855.7290039,0,619.2128906
+EleutherAI/pythia-160m in boolq,finished,-,,"EleutherAI/pythia-160m, NVIDIA A100-SXM4-80GB, boolq",2025-02-03T11:30:00.000Z,16,,38,9.362114568,boolq,858.2329102,0,619.2128906
+EleutherAI/pythia-160m in social_i_qa,finished,-,,"EleutherAI/pythia-160m, NVIDIA A100-SXM4-80GB, social_i_qa",2025-02-03T11:29:40.000Z,13,,33,7.821436939239502,social_i_qa,732.6630859,0,619.2128906
+EleutherAI/pythia-160m in allenai/ai2_arc,finished,-,,"EleutherAI/pythia-160m, NVIDIA A100-SXM4-80GB, allenai/ai2_arc",2025-02-03T11:29:24.000Z,11,,26.31578947368421,9.285996693895576,allenai/ai2_arc,744.5805664,0,619.2128906
+EleutherAI/pythia-160m in openbookqa,finished,-,,"EleutherAI/pythia-160m, NVIDIA A100-SXM4-80GB, openbookqa",2025-02-03T11:29:08.000Z,11,,25.2,10.136959000587463,openbookqa,734.8911133,0,619.2128906
+EleutherAI/pythia-160m in winogrande,finished,-,,"EleutherAI/pythia-160m, NVIDIA A100-SXM4-80GB, winogrande",2025-02-03T11:28:46.000Z,14,,49.3,8.304944160938263,winogrande,705.550293,0,619.2128906
+HuggingFaceTB/SmolLM-135M in piqa,finished,-,,"HuggingFaceTB/SmolLM-135M, NVIDIA A100-SXM4-80GB, piqa",2025-02-03T11:28:03.000Z,33,,49.9,26.545468439102173,piqa,647.2568359,0,513.1340332
+HuggingFaceTB/SmolLM-135M in boolq,finished,-,,"HuggingFaceTB/SmolLM-135M, NVIDIA A100-SXM4-80GB, boolq",2025-02-03T11:27:25.000Z,33,,60.4,25.520173025131225,boolq,649.1259766,0,513.1340332
+HuggingFaceTB/SmolLM-135M in social_i_qa,finished,-,,"HuggingFaceTB/SmolLM-135M, NVIDIA A100-SXM4-80GB, social_i_qa",2025-02-03T11:26:47.000Z,32,,32.800000000000004,25.49952621078491,social_i_qa,560.1181641,0,513.1340332
+HuggingFaceTB/SmolLM-135M in allenai/ai2_arc,finished,-,,"HuggingFaceTB/SmolLM-135M, NVIDIA A100-SXM4-80GB, allenai/ai2_arc",2025-02-03T11:26:21.000Z,20,,24.210526315789473,26.532429233350253,allenai/ai2_arc,569.6826172,0,513.1340332
+HuggingFaceTB/SmolLM-135M in openbookqa,finished,-,,"HuggingFaceTB/SmolLM-135M, NVIDIA A100-SXM4-80GB, openbookqa",2025-02-03T11:25:56.000Z,18,,25.8,27.459217445373536,openbookqa,559.8696289,0,513.1340332
+HuggingFaceTB/SmolLM-135M in winogrande,finished,-,,"HuggingFaceTB/SmolLM-135M, NVIDIA A100-SXM4-80GB, winogrande",2025-02-03T11:25:18.000Z,30,,49.7,23.72380364608765,winogrande,547.2519531,0,513.1340332
+facebook/opt-125m in piqa,finished,-,,"NVIDIA A100-SXM4-80GB, facebook/opt-125m, piqa",2025-02-03T11:24:53.000Z,15,,49.4,8.979575794696808,piqa,626.6079102,0,477.75
+facebook/opt-125m in boolq,finished,-,,"NVIDIA A100-SXM4-80GB, boolq, facebook/opt-125m",2025-02-03T11:24:34.000Z,14,,43.4,7.691248646736145,boolq,628.7890625,0,477.75
+facebook/opt-125m in social_i_qa,finished,-,,"NVIDIA A100-SXM4-80GB, facebook/opt-125m, social_i_qa",2025-02-03T11:24:13.000Z,14,,33.7,7.776174056529999,social_i_qa,520.7836914,0,477.75
+facebook/opt-125m in allenai/ai2_arc,finished,-,,"NVIDIA A100-SXM4-80GB, allenai/ai2_arc, facebook/opt-125m",2025-02-03T11:23:59.000Z,10,,26.49122807017544,7.818182515261466,allenai/ai2_arc,533.7695313,0,477.75
+facebook/opt-125m in openbookqa,finished,-,,"NVIDIA A100-SXM4-80GB, facebook/opt-125m, openbookqa",2025-02-03T11:23:44.000Z,9,,25.4,8.249479161262512,openbookqa,523.6987305,0,477.75
+facebook/opt-125m in winogrande,finished,-,,"NVIDIA A100-SXM4-80GB, facebook/opt-125m, winogrande",2025-02-03T11:23:23.000Z,13,,49.3,6.530721787929535,winogrande,506.2070313,0,477.75
+MBZUAI/LaMini-GPT-124M in piqa,finished,-,,"MBZUAI/LaMini-GPT-124M, NVIDIA A100-SXM4-80GB, piqa",2025-02-03T11:23:01.000Z,15,,50.8,9.019361275196076,piqa,593.652832,0,474.703125
+MBZUAI/LaMini-GPT-124M in boolq,finished,-,,"MBZUAI/LaMini-GPT-124M, NVIDIA A100-SXM4-80GB, boolq",2025-02-03T11:22:42.000Z,14,,62.4,7.7503406,boolq,595.7617188,0,474.703125
+MBZUAI/LaMini-GPT-124M in social_i_qa,finished,-,,"MBZUAI/LaMini-GPT-124M, NVIDIA A100-SXM4-80GB, social_i_qa",2025-02-03T11:22:21.000Z,14,,33.1,7.767680011749268,social_i_qa,520.5107422,0,474.703125
+MBZUAI/LaMini-GPT-124M in allenai/ai2_arc,finished,-,,"MBZUAI/LaMini-GPT-124M, NVIDIA A100-SXM4-80GB, allenai/ai2_arc",2025-02-03T11:22:07.000Z,10,,24.912280701754387,9.225314798689723,allenai/ai2_arc,530.1152344,0,474.703125
+MBZUAI/LaMini-GPT-124M in openbookqa,finished,-,,"MBZUAI/LaMini-GPT-124M, NVIDIA A100-SXM4-80GB, openbookqa",2025-02-03T11:21:52.000Z,9,,24,8.410103792190553,openbookqa,522.6533203,0,474.703125
+MBZUAI/LaMini-GPT-124M in winogrande,finished,-,,"MBZUAI/LaMini-GPT-124M, NVIDIA A100-SXM4-80GB, winogrande",2025-02-03T11:21:31.000Z,13,,50.7,7.593006102561951,winogrande,509.8095703,0,474.703125
+cerebras/Cerebras-GPT-111M in piqa,finished,-,,"NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-111M, piqa",2025-02-03T11:21:09.000Z,13,,49.2,7.388533715248108,piqa,618.6074219,0,423.6240234
+cerebras/Cerebras-GPT-111M in boolq,finished,-,,"NVIDIA A100-SXM4-80GB, boolq, cerebras/Cerebras-GPT-111M",2025-02-03T11:20:52.000Z,13,,38,6.210408448696136,boolq,621.6826172,0,423.6240234
+cerebras/Cerebras-GPT-111M in social_i_qa,finished,-,,"NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-111M, social_i_qa",2025-02-03T11:20:31.000Z,11,,33.7,5.159530498981476,social_i_qa,521.4331055,0,423.6240234
+cerebras/Cerebras-GPT-111M in allenai/ai2_arc,finished,-,,"NVIDIA A100-SXM4-80GB, allenai/ai2_arc, cerebras/Cerebras-GPT-111M",2025-02-03T11:20:16.000Z,9,,26.49122807017544,6.586705695537098,allenai/ai2_arc,531.0380859,0,423.6240234
+cerebras/Cerebras-GPT-111M in openbookqa,finished,-,,"NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-111M, openbookqa",2025-02-03T11:19:59.000Z,9,,25,7.928387521,openbookqa,523.5751953,0,423.6240234
+cerebras/Cerebras-GPT-111M in winogrande,finished,-,,"NVIDIA A100-SXM4-80GB, cerebras/Cerebras-GPT-111M, winogrande",2025-02-03T11:19:37.000Z,12,,49.3,6.371424250125885,winogrande,497.1484375,0,423.6240234
+google/flan-t5-base in piqa,failed,-,,"Orin, google/flan-t5-base, piqa",2025-02-03T06:44:23.000Z,4,,,,,,,
+MBZUAI/LaMini-GPT-774M in piqa,crashed,-,,"MBZUAI/LaMini-GPT-774M, Orin, piqa",2025-02-03T06:42:37.000Z,46,,,,,,,
+cerebras/Cerebras-GPT-590M in piqa,finished,-,,"Orin, cerebras/Cerebras-GPT-590M, piqa",2025-02-03T06:34:52.000Z,302,,49.2,279.48952098846434,piqa,2607.568359,,2251.857422
+bigscience/bloomz-560m in piqa,finished,-,,"Orin, bigscience/bloomz-560m, piqa",2025-02-03T06:25:42.000Z,402,,50.6,257.5186014099121,piqa,2777.777344,,2133.234375
+bigscience/bloom-560m in piqa,crashed,-,,"Orin, bigscience/bloom-560m, piqa",2025-02-03T06:23:13.000Z,50,,,,,,,
+h2oai/h20-danube3-500m-base in piqa,failed,-,,"Orin, h2oai/h20-danube3-500m-base, piqa",2025-02-03T06:21:40.000Z,3,,,,,,,
+Qwen/Qwen2.5-0.5B in piqa,finished,-,,"Orin, Qwen/Qwen2.5-0.5B, piqa",2025-02-03T06:15:00.000Z,305,,59.5,213.5793806,piqa,2199.054688,,1884.585449
+Qwen/Qwen1.5-0.5B in piqa,crashed,-,,"Orin, Qwen/Qwen1.5-0.5B, piqa",2025-02-03T06:10:00.000Z,151,,,,,,,
+mllmTeam/PhoneLM-0.5B in piqa,failed,-,,"Orin, mllmTeam/PhoneLM-0.5B, piqa",2025-02-03T06:08:32.000Z,6,,,,,,,
+ahxt/LiteLlama-460M-1T in piqa,finished,-,,"Orin, ahxt/LiteLlama-460M-1T, piqa",2025-02-03T06:03:57.000Z,198,,49.3,181.29730604553225,piqa,1879.163086,,1761.191406
+EleutherAI/pythia-410m in piqa,finished,-,,"EleutherAI/pythia-410m, Orin, piqa",2025-02-03T05:58:57.000Z,168,,49.2,153.3653235321045,piqa,1940.066895,,1546.226563
+facebook/opt-350m in piqa,finished,-,,"Orin, facebook/opt-350m, piqa",2025-02-03T05:54:33.000Z,163,,49.9,148.2698412017822,piqa,1464.125488,,1263.414063
+HuggingFaceTB/SmolLM-360M in piqa,finished,-,,"HuggingFaceTB/SmolLM-360M, Orin, piqa",2025-02-03T05:50:09.000Z,191,,52.5,176.19044438171386,piqa,1528.63916,,1380.238037109375
+cerebras/Cerebras-GPT-256M in piqa,finished,-,,"Orin, cerebras/Cerebras-GPT-256M, piqa",2025-02-03T05:46:23.000Z,131,,49.2,118.0900521736145,piqa,1234.145996,,976.4748535
+EleutherAI/pythia-160m in piqa,finished,-,,"EleutherAI/pythia-160m, Orin, piqa",2025-02-03T05:43:45.000Z,77,,48.6,63.16862409591675,piqa,854.9086914,,619.2128906
+HuggingFaceTB/SmolLM-135M in piqa,finished,-,,"HuggingFaceTB/SmolLM-135M, Orin, piqa",2025-02-03T05:40:13.000Z,152,,49.9,138.11654808044435,piqa,646.7724609,,513.1340332
+facebook/galactica-125m in piqa,failed,-,,"Orin, facebook/galactica-125m, piqa",2025-02-03T05:39:26.000Z,3,,,,,,,
+facebook/opt-125m in piqa,finished,-,,"Orin, facebook/opt-125m, piqa",2025-02-03T05:37:07.000Z,77,,49.4,63.60353413391113,piqa,626.5727539,,477.75
+MBZUAI/LaMini-GPT-124M in piqa,finished,-,,"MBZUAI/LaMini-GPT-124M, Orin, piqa",2025-02-03T05:34:43.000Z,83,,50.8,70.01665793991089,piqa,594.277832,,474.703125
+cerebras/Cerebras-GPT-111M in piqa,finished,-,,"Orin, cerebras/Cerebras-GPT-111M, piqa",2025-02-03T05:31:33.000Z,113,,49.2,67.59444571876526,piqa,618.6074219,,423.6240234
+TinyLlama/TinyLlama_v1.1 in winogrande,crashed,-,,"Orin, TinyLlama/TinyLlama_v1.1, winogrande",2025-02-02T17:33:26.000Z,0,,,,,,,
+google/flan-t5-base in winogrande,failed,-,,"Orin, google/flan-t5-base, winogrande",2025-02-02T17:30:55.000Z,3,,,,,,,
+MBZUAI/LaMini-GPT-774M in social_i_qa,crashed,-,,"MBZUAI/LaMini-GPT-774M, Orin, social_i_qa",2025-02-02T17:28:57.000Z,61,,,,,,,
+MBZUAI/LaMini-GPT-774M in allenai/ai2_arc,finished,-,,"MBZUAI/LaMini-GPT-774M, Orin, allenai/ai2_arc",2025-02-02T17:25:22.000Z,203,,32.631578947368425,331.2463760911373,allenai/ai2_arc,3104.304688,,2952.695313
+MBZUAI/LaMini-GPT-774M in openbookqa,finished,-,,"MBZUAI/LaMini-GPT-774M, Orin, openbookqa",2025-02-02T17:22:36.000Z,156,,31.2,288.7707043762207,openbookqa,3096.768555,,2952.695313
+MBZUAI/LaMini-GPT-774M in winogrande,finished,-,,"MBZUAI/LaMini-GPT-774M, Orin, winogrande",2025-02-02T17:16:09.000Z,368,,51.06550908,241.84174239136803,winogrande,3084.381348,,2952.695313
+cerebras/Cerebras-GPT-590M in boolq,finished,-,,"Orin, boolq, cerebras/Cerebras-GPT-590M",2025-02-02T16:52:33.000Z,455,,37.9,407.8027996673584,boolq,2613.157227,,2251.857422
+cerebras/Cerebras-GPT-590M in social_i_qa,finished,-,,"Orin, cerebras/Cerebras-GPT-590M, social_i_qa",2025-02-02T16:47:50.000Z,268,,33.7,252.31671072387695,social_i_qa,2423.407715,,2251.857422
+cerebras/Cerebras-GPT-590M in allenai/ai2_arc,finished,-,,"Orin, allenai/ai2_arc, cerebras/Cerebras-GPT-590M",2025-02-02T16:45:03.000Z,157,,26.49122807017544,251.49562498393811,allenai/ai2_arc,2441.550781,,2251.857422
+cerebras/Cerebras-GPT-590M in openbookqa,finished,-,,"Orin, cerebras/Cerebras-GPT-590M, openbookqa",2025-02-02T16:42:44.000Z,125,,25,227.7716315612793,openbookqa,2426.878906,,2251.857422
+cerebras/Cerebras-GPT-590M in winogrande,finished,-,,"Orin, cerebras/Cerebras-GPT-590M, winogrande",2025-02-02T16:37:56.000Z,269,,49.56590370955012,195.59808604323968,winogrande,2393.745605,,2251.857422
+bigscience/bloomz-560m in boolq,finished,-,,"Orin, bigscience/bloomz-560m, boolq",2025-02-02T16:26:24.000Z,443,,62.5,357.8165179595947,boolq,2777.367188,,2133.234375
+bigscience/bloomz-560m in social_i_qa,finished,-,,"Orin, bigscience/bloomz-560m, social_i_qa",2025-02-02T16:21:44.000Z,265,,32.9,213.56794567108153,social_i_qa,2297.162109,,2133.234375
+bigscience/bloomz-560m in allenai/ai2_arc,finished,-,,"Orin, allenai/ai2_arc, bigscience/bloomz-560m",2025-02-02T16:18:38.000Z,164,,24.210526315789473,206.62849906787537,allenai/ai2_arc,2359.264648,,2133.234375
+bigscience/bloomz-560m in openbookqa,finished,-,,"Orin, bigscience/bloomz-560m, openbookqa",2025-02-02T16:16:01.000Z,146,,21.8,178.6327811279297,openbookqa,2308.698242,,2133.234375
+bigscience/bloomz-560m in winogrande,finished,-,,"Orin, bigscience/bloomz-560m, winogrande",2025-02-02T16:10:18.000Z,323,,50.355169692186266,148.32414443716817,winogrande,2230.798828,,2133.234375
+bigscience/bloom-560m in boolq,finished,-,,"Orin, bigscience/bloom-560m, boolq",2025-02-02T15:50:28.000Z,446,,38.3,357.45309278869627,boolq,2777.367188,,2133.234375
+bigscience/bloom-560m in social_i_qa,finished,-,,"Orin, bigscience/bloom-560m, social_i_qa",2025-02-02T15:45:54.000Z,261,,33.7,213.10697130584717,social_i_qa,2297.162109,,2133.234375
+bigscience/bloom-560m in allenai/ai2_arc,finished,-,,"Orin, allenai/ai2_arc, bigscience/bloom-560m",2025-02-02T15:42:58.000Z,166,,26.31578947368421,206.4184246933251,allenai/ai2_arc,2359.264648,,2133.234375
+bigscience/bloom-560m in openbookqa,finished,-,,"Orin, bigscience/bloom-560m, openbookqa",2025-02-02T15:40:21.000Z,148,,25.8,178.7409584,openbookqa,2308.698242,,2133.234375
+bigscience/bloom-560m in winogrande,finished,-,,"Orin, bigscience/bloom-560m, winogrande",2025-02-02T15:34:41.000Z,323,,49.56590370955012,149.08275208025347,winogrande,2230.798828,,2133.234375
+h2oai/h20-danube3-500m-base in winogrande,failed,-,,"Orin, h2oai/h20-danube3-500m-base, winogrande",2025-02-02T15:31:15.000Z,3,,,,,,,
+Qwen/Qwen2.5-0.5B in boolq,finished,-,,"Orin, Qwen/Qwen2.5-0.5B, boolq",2025-02-02T15:17:14.000Z,383,,64.60000000000001,330.0366031188965,boolq,2203.90625,,1884.585449
+Qwen/Qwen2.5-0.5B in social_i_qa,finished,-,,"Orin, Qwen/Qwen2.5-0.5B, social_i_qa",2025-02-02T15:13:28.000Z,214,,52.3,197.7936805038452,social_i_qa,1967.386719,,1884.585449
+Qwen/Qwen2.5-0.5B in allenai/ai2_arc,finished,-,,"Orin, Qwen/Qwen2.5-0.5B, allenai/ai2_arc",2025-02-02T15:11:14.000Z,124,,62.80701754385965,197.7374458179139,allenai/ai2_arc,1998.316406,,1884.585449
+Qwen/Qwen2.5-0.5B in openbookqa,finished,-,,"Orin, Qwen/Qwen2.5-0.5B, openbookqa",2025-02-02T15:09:26.000Z,99,,44.8,173.80585205078123,openbookqa,1972.892578,,1884.585449
+Qwen/Qwen2.5-0.5B in winogrande,finished,-,,"Orin, Qwen/Qwen2.5-0.5B, winogrande",2025-02-02T15:05:51.000Z,200,,50.90765588003157,143.20088863598613,winogrande,1935.851563,,1884.585449
+Qwen/Qwen1.5-0.5B in boolq,finished,-,,"Orin, Qwen/Qwen1.5-0.5B, boolq",2025-02-02T14:51:59.000Z,360,,59.7,305.81486240386965,boolq,2245.355957,,1769.972656
+Qwen/Qwen1.5-0.5B in social_i_qa,finished,-,,"Orin, Qwen/Qwen1.5-0.5B, social_i_qa",2025-02-02T14:48:20.000Z,207,,42.3,174.68632892608642,social_i_qa,1944.661621,,1769.972656
+Qwen/Qwen1.5-0.5B in allenai/ai2_arc,finished,-,,"Orin, Qwen/Qwen1.5-0.5B, allenai/ai2_arc",2025-02-02T14:45:24.000Z,142,,54.736842105263165,175.61768453497635,allenai/ai2_arc,1983.983398,,1769.972656
+Qwen/Qwen1.5-0.5B in openbookqa,finished,-,,"Orin, Qwen/Qwen1.5-0.5B, openbookqa",2025-02-02T14:43:00.000Z,129,,42,155.57407711791993,openbookqa,1951.483887,,1769.972656
+Qwen/Qwen1.5-0.5B in winogrande,finished,-,,"Orin, Qwen/Qwen1.5-0.5B, winogrande",2025-02-02T14:37:23.000Z,322,,50.82872928176796,146.1785555134256,winogrande,1904.569824,,1769.972656
+mllmTeam/PhoneLM-0.5B in winogrande,failed,-,,"Orin, mllmTeam/PhoneLM-0.5B, winogrande",2025-02-02T14:34:32.000Z,3,,,,,,,
+ahxt/LiteLlama-460M-1T in boolq,finished,-,,"Orin, ahxt/LiteLlama-460M-1T, boolq",2025-02-02T14:22:31.000Z,294,,38.1,278.4263421783447,boolq,1881.574707,,1761.191406
+ahxt/LiteLlama-460M-1T in social_i_qa,finished,-,,"Orin, ahxt/LiteLlama-460M-1T, social_i_qa",2025-02-02T14:19:12.000Z,187,,34,173.07866479492188,social_i_qa,1797.381348,,1761.191406
+ahxt/LiteLlama-460M-1T in allenai/ai2_arc,finished,-,,"Orin, ahxt/LiteLlama-460M-1T, allenai/ai2_arc",2025-02-02T14:17:12.000Z,110,,25.61403509,173.44741328724643,allenai/ai2_arc,1808.159668,,1761.191406
+ahxt/LiteLlama-460M-1T in openbookqa,finished,-,,"Orin, ahxt/LiteLlama-460M-1T, openbookqa",2025-02-02T14:15:35.000Z,87,,25.2,156.08919175720214,openbookqa,1799.793945,,1761.191406
+ahxt/LiteLlama-460M-1T in winogrande,finished,-,,"Orin, ahxt/LiteLlama-460M-1T, winogrande",2025-02-02T14:12:25.000Z,175,,49.56590370955012,124.43760697410724,winogrande,1785.980957,,1761.191406
+EleutherAI/pythia-410m in boolq,finished,-,,"EleutherAI/pythia-410m, Orin, boolq",2025-02-02T14:01:06.000Z,263,,37.8,247.23577223205567,boolq,1942.633301,,1546.226563
+EleutherAI/pythia-410m in social_i_qa,finished,-,,"EleutherAI/pythia-410m, Orin, social_i_qa",2025-02-02T13:57:53.000Z,165,,33.7,150.8899056930542,social_i_qa,1725.746094,,1546.226563
+EleutherAI/pythia-410m in allenai/ai2_arc,finished,-,,"EleutherAI/pythia-410m, Orin, allenai/ai2_arc",2025-02-02T13:56:05.000Z,98,,26.31578947368421,153.6000855964527,allenai/ai2_arc,1751.444824,,1546.226563
+EleutherAI/pythia-410m in openbookqa,finished,-,,"EleutherAI/pythia-410m, Orin, openbookqa",2025-02-02T13:54:20.000Z,78,,25,135.24166093444825,openbookqa,1730.383301,,1546.226563
+EleutherAI/pythia-410m in winogrande,finished,-,,"EleutherAI/pythia-410m, Orin, winogrande",2025-02-02T13:51:39.000Z,147,,49.644830307813734,103.30744137421496,winogrande,1693.758301,,1546.226563
+facebook/opt-350m in boolq,finished,-,,"Orin, boolq, facebook/opt-350m",2025-02-02T13:39:53.000Z,248,,38.4,231.81928199768063,boolq,1466.734375,,1263.414063
+facebook/opt-350m in social_i_qa,finished,-,,"Orin, facebook/opt-350m, social_i_qa",2025-02-02T13:37:04.000Z,157,,32.6,142.3637615737915,social_i_qa,1320.720215,,1263.414063
+facebook/opt-350m in allenai/ai2_arc,finished,-,,"Orin, allenai/ai2_arc, facebook/opt-350m",2025-02-02T13:35:22.000Z,93,,26.31578947368421,144.79129083198413,allenai/ai2_arc,1339.400391,,1263.414063
+facebook/opt-350m in openbookqa,finished,-,,"Orin, facebook/opt-350m, openbookqa",2025-02-02T13:33:56.000Z,77,,24.8,129.2695264892578,openbookqa,1324.913574,,1263.414063
+facebook/opt-350m in winogrande,finished,-,,"Orin, facebook/opt-350m, winogrande",2025-02-02T13:31:19.000Z,143,,49.56590370955012,100.03752819684516,winogrande,1300.895508,,1263.414063
+HuggingFaceTB/SmolLM-360M in boolq,finished,-,,"HuggingFaceTB/SmolLM-360M, Orin, boolq",2025-02-02T13:18:27.000Z,291,,39.7,274.14870875549315,boolq,1530.793457,,1380.238037109375
+HuggingFaceTB/SmolLM-360M in social_i_qa,finished,-,,"HuggingFaceTB/SmolLM-360M, Orin, social_i_qa",2025-02-02T13:15:22.000Z,173,,34.300000000000004,158.65985760498046,social_i_qa,1428.206055,,1380.238037109375
+HuggingFaceTB/SmolLM-360M in allenai/ai2_arc,finished,-,,"HuggingFaceTB/SmolLM-360M, Orin, allenai/ai2_arc",2025-02-02T13:13:29.000Z,103,,21.75438596491228,161.71543292664646,allenai/ai2_arc,1439.230957,,1380.238037109375
+HuggingFaceTB/SmolLM-360M in openbookqa,finished,-,,"HuggingFaceTB/SmolLM-360M, Orin, openbookqa",2025-02-02T13:11:55.000Z,85,,23.6,151.58856842041016,openbookqa,1427.920898,,1380.238037109375
+HuggingFaceTB/SmolLM-360M in winogrande,finished,-,,"HuggingFaceTB/SmolLM-360M, Orin, winogrande",2025-02-02T13:08:21.000Z,199,,49.56590370955012,143.46950399132348,winogrande,1413.663574,,1380.238037109375
+cerebras/Cerebras-GPT-256M in boolq,finished,-,,"Orin, boolq, cerebras/Cerebras-GPT-256M",2025-02-02T12:59:16.000Z,214,,38.1,197.90761924743651,boolq,1240.859863,,976.4748535
+cerebras/Cerebras-GPT-256M in social_i_qa,finished,-,,"Orin, cerebras/Cerebras-GPT-256M, social_i_qa",2025-02-02T12:56:26.000Z,139,,33.7,125.4607793197632,social_i_qa,1099.172852,,976.4748535
+cerebras/Cerebras-GPT-256M in allenai/ai2_arc,finished,-,,"Orin, allenai/ai2_arc, cerebras/Cerebras-GPT-256M",2025-02-02T12:54:58.000Z,78,,26.49122807017544,118.45788732160602,allenai/ai2_arc,1118.917969,,976.4748535
+cerebras/Cerebras-GPT-256M in openbookqa,finished,-,,"Orin, cerebras/Cerebras-GPT-256M, openbookqa",2025-02-02T12:53:46.000Z,63,,25,104.82716012573242,openbookqa,1101.328613,,976.4748535
+cerebras/Cerebras-GPT-256M in winogrande,finished,-,,"Orin, cerebras/Cerebras-GPT-256M, winogrande",2025-02-02T12:51:39.000Z,113,,49.56590370955012,76.807238,winogrande,1075.111328,,976.4748535
+EleutherAI/pythia-160m in boolq,finished,-,,"EleutherAI/pythia-160m, Orin, boolq",2025-02-02T12:44:36.000Z,103,,38,89.24530813980103,boolq,858.8579102,,619.2128906
+EleutherAI/pythia-160m in social_i_qa,finished,-,,"EleutherAI/pythia-160m, Orin, social_i_qa",2025-02-02T12:43:15.000Z,68,,33,55.574741107940675,social_i_qa,734.2705078,,619.2128906
+EleutherAI/pythia-160m in allenai/ai2_arc,finished,-,,"EleutherAI/pythia-160m, Orin, allenai/ai2_arc",2025-02-02T12:42:24.000Z,42,,26.31578947368421,57.341061247440805,allenai/ai2_arc,745.3442383,,619.2128906
+EleutherAI/pythia-160m in openbookqa,finished,-,,"EleutherAI/pythia-160m, Orin, openbookqa",2025-02-02T12:41:41.000Z,35,,25.2,53.22515603637695,openbookqa,736.340332,,619.2128906
+EleutherAI/pythia-160m in winogrande,finished,-,,"EleutherAI/pythia-160m, Orin, winogrande",2025-02-02T12:40:12.000Z,76,,49.25019731649566,50.21002636542919,winogrande,706.0961914,,619.2128906
+HuggingFaceTB/SmolLM-135M in boolq,finished,-,,"HuggingFaceTB/SmolLM-135M, Orin, boolq",2025-02-02T12:31:40.000Z,159,,60.4,143.36212879943847,boolq,648.6416016,,513.1340332
+HuggingFaceTB/SmolLM-135M in social_i_qa,finished,-,,"HuggingFaceTB/SmolLM-135M, Orin, social_i_qa",2025-02-02T12:28:57.000Z,141,,32.800000000000004,125.26644384002684,social_i_qa,559.6337891,,513.1340332
+HuggingFaceTB/SmolLM-135M in allenai/ai2_arc,finished,-,,"HuggingFaceTB/SmolLM-135M, Orin, allenai/ai2_arc",2025-02-02T12:27:24.000Z,84,,24.210526315789473,125.59089771739224,allenai/ai2_arc,569.1982422,,513.1340332
+HuggingFaceTB/SmolLM-135M in openbookqa,finished,-,,"HuggingFaceTB/SmolLM-135M, Orin, openbookqa",2025-02-02T12:26:02.000Z,73,,25.8,124.12428340148924,openbookqa,559.3852539,,513.1340332
+HuggingFaceTB/SmolLM-135M in winogrande,finished,-,,"HuggingFaceTB/SmolLM-135M, Orin, winogrande",2025-02-02T12:22:52.000Z,177,,50.43409629044988,125.49617590900472,winogrande,547.0161133,,513.1340332
+facebook/galactica-125m in winogrande,failed,-,,"Orin, facebook/galactica-125m, winogrande",2025-02-02T12:22:06.000Z,2,,,,,,,
+facebook/opt-125m in boolq,finished,-,,"Orin, boolq, facebook/opt-125m",2025-02-02T12:16:37.000Z,101,,43.4,86.71915930938721,boolq,628.7832031,,477.75
+facebook/opt-125m in social_i_qa,finished,-,,"Orin, facebook/opt-125m, social_i_qa",2025-02-02T12:15:18.000Z,68,,33.7,55.36770124435425,social_i_qa,521.277832,,477.75
+facebook/opt-125m in allenai/ai2_arc,finished,-,,"Orin, allenai/ai2_arc, facebook/opt-125m",2025-02-02T12:14:28.000Z,41,,26.49122807017544,56.63517720406516,allenai/ai2_arc,534.2636719,,477.75
+facebook/opt-125m in openbookqa,finished,-,,"Orin, facebook/opt-125m, openbookqa",2025-02-02T12:13:44.000Z,35,,25.4,51.837565895080566,openbookqa,524.1928711,,477.75
+facebook/opt-125m in winogrande,finished,-,,"Orin, facebook/opt-125m, winogrande",2025-02-02T12:12:18.000Z,73,,49.48697711,46.662277703409416,winogrande,507.4960938,,477.75
+MBZUAI/LaMini-GPT-124M in boolq,finished,-,,"MBZUAI/LaMini-GPT-124M, Orin, boolq",2025-02-02T12:06:45.000Z,106,,62.4,91.16897498703004,boolq,596.3867188,,474.703125
+MBZUAI/LaMini-GPT-124M in social_i_qa,finished,-,,"MBZUAI/LaMini-GPT-124M, Orin, social_i_qa",2025-02-02T12:05:28.000Z,65,,33.1,53.63313407,social_i_qa,521.1357422,,474.703125
+MBZUAI/LaMini-GPT-124M in allenai/ai2_arc,finished,-,,"MBZUAI/LaMini-GPT-124M, Orin, allenai/ai2_arc",2025-02-02T12:04:37.000Z,42,,24.912280701754387,55.51672846476237,allenai/ai2_arc,530.7402344,,474.703125
+MBZUAI/LaMini-GPT-124M in openbookqa,finished,-,,"MBZUAI/LaMini-GPT-124M, Orin, openbookqa",2025-02-02T12:03:49.000Z,35,,24,50.36065258789063,openbookqa,523.2783203,,474.703125
+MBZUAI/LaMini-GPT-124M in winogrande,finished,-,,"MBZUAI/LaMini-GPT-124M, Orin, winogrande",2025-02-02T12:02:17.000Z,78,,50.43409629044988,51.47999014248506,winogrande,511.0141602,,474.703125
+cerebras/Cerebras-GPT-111M in boolq,finished,-,,"Orin, boolq, cerebras/Cerebras-GPT-111M",2025-02-02T11:57:35.000Z,88,,38,75.05335263061524,boolq,621.6826172,,423.6240234
+cerebras/Cerebras-GPT-111M in social_i_qa,finished,-,,"Orin, cerebras/Cerebras-GPT-111M, social_i_qa",2025-02-02T11:56:20.000Z,58,,33.7,46.56031371688843,social_i_qa,521.4331055,,423.6240234
+cerebras/Cerebras-GPT-111M in allenai/ai2_arc,finished,-,,"Orin, allenai/ai2_arc, cerebras/Cerebras-GPT-111M",2025-02-02T11:55:33.000Z,36,,26.49122807017544,47.84820678443239,allenai/ai2_arc,531.0380859,,423.6240234
+cerebras/Cerebras-GPT-111M in openbookqa,finished,-,,"Orin, cerebras/Cerebras-GPT-111M, openbookqa",2025-02-02T11:54:52.000Z,33,,25,42.65191746520996,openbookqa,523.5751953,,423.6240234
+cerebras/Cerebras-GPT-111M in winogrande,finished,-,,"Orin, cerebras/Cerebras-GPT-111M, winogrande",2025-02-02T11:53:21.000Z,77,,49.56590370955012,49.356640146582166,winogrande,497.9916992,,423.6240234
