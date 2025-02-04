@@ -84,6 +84,8 @@ nan: Failed inference (memory issue)
 | opt-350m          | 350M         | 26.3158 |    38.4 |   24.8 |   49.9 |   32.6 |      49.5659 | 36.9303 |
 | pythia-160m       | 160M         | 26.3158 |    38   |   25.2 |   48.6 |   33   |      49.2502 | 36.7277 |
 | pythia-410m       | 410M         | 26.3158 |    37.8 |   25   |   49.2 |   33.7 |      49.6448 | 36.9434 |
+![image](https://github.com/user-attachments/assets/9536cf2e-78d4-4f9a-9b49-6140ca1df932)
+
 
 #### 3. Inference Time (ms)
 | Model             | Parameters   |    ARC-e |    BoolQ |     OBQA |     PIQA |     SIQA |   WinoGrande |     Avg. |
@@ -126,3 +128,5 @@ nan: Failed inference (memory issue)
 | opt-350m          | 350M         | 1.30801  |   1.43236  | 1.29386  |   1.42981  |   1.28977  |     1.27041  | 1.33737  |
 | pythia-160m       | 160M         | 0.727875 |   0.838728 | 0.719082 |   0.834872 |   0.717061 |     0.689547 | 0.754528 |
 | pythia-410m       | 410M         | 1.7104   |   1.8971   | 1.68983  |   1.8946   |   1.6853   |     1.65406  | 1.75521  |
+![image](https://github.com/user-attachments/assets/a1e30b50-e675-4708-80dc-e3fb41a1cedc)
+
