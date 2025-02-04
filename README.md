@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/69203223-c498-45a5-87a7-ef5a20c9cbd7)# TinyLLM
-
 ### Models
 | Model Name | Affiliation | Model Size | Release Date | 🔗 Link |
 | --- | --- | --- | --- | --- |
@@ -106,6 +104,8 @@ nan: Failed inference (memory issue)
 | opt-350m          | 350M         | 144.791  | 231.819  | 129.27   | 148.27   | 142.364  |     100.038  | 149.425  |
 | pythia-160m       | 160M         |  57.3411 |  89.2453 |  53.2252 |  63.1686 |  55.5747 |      50.21   |  61.4608 |
 | pythia-410m       | 410M         | 153.6    | 247.236  | 135.242  | 153.365  | 150.89   |     103.307  | 157.273  |
+
+![image](https://github.com/user-attachments/assets/0547a91b-44fc-469d-9b74-78a0c314488b)
 
 #### 4. Peak GPU Memory Usage (GB)
 | Model             | Parameters   |    ARC-e |      BoolQ |     OBQA |       PIQA |       SIQA |   WinoGrande |     Avg. |
